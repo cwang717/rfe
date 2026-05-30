@@ -1,0 +1,17 @@
+# Section 3. Clarification: My Claimed Contributions Are Not Merely Publications
+
+USCIS has already accepted the authorship criterion. I understand that the present RFE concerns a separate requirement: whether my work constitutes original contributions of major significance in the field. I therefore do not rely on publication alone to establish this criterion.
+
+My peer-reviewed publications are one important way in which my work was disclosed to the field, but they are not the contributions themselves. The contributions I claim are the underlying scientific, technical, and practical advances that others have used, extended, implemented, or relied upon. These include not only datasets, models, experimental findings, methods, and analytical frameworks described in scholarly publications, but also patented autonomous-driving technologies and cross-sector technical insights that I provided to academic, industrial, and government-facing stakeholders.
+
+Specifically, my claimed contributions include three types of work:
+
+1. **Original research outputs**, including controlled mixed-traffic field experiments, human-driver behavioral datasets, empirical findings on how autonomous-vehicle appearance affects human-driver behavior, stochastic car-following models, simulation frameworks, trajectory optimization methods, reinforcement-learning-based control methods, and autonomous-vehicle planning and prediction approaches.
+
+2. **Patented technical inventions**, including autonomous-driving technologies related to intention prediction, hierarchical vehicle-action prediction, and reinforcement-learning techniques for network-based transfer learning. These patents show that my work was not limited to academic publication, but also produced protectable technical inventions directed to real autonomous-vehicle perception, prediction, planning, and control problems.
+
+3. **Practical and cross-sector expert contributions**, including the technical insights I provided in government-facing trainings, industry-academic-government panel discussions, advisory activities, and stakeholder discussions. In the autonomous-driving field, progress depends on coordination among academia, industry, and government because each sector has different information gaps: academic researchers often lack access to real-world deployment data and vehicle testing constraints; industry practitioners understand practical deployment limitations; and government stakeholders need technical input to shape safe and workable transportation policies. My role in these settings was to translate my research and industry experience into actionable insights for different stakeholders.
+
+Accordingly, the evidence below does not ask USCIS to infer major significance merely from the existence of publications. For each claimed contribution, I identify the specific underlying work, explain my personal role, and provide objective evidence showing how independent researchers, agencies, companies, project teams, or professional stakeholders used, adopted, extended, calibrated, benchmarked, implemented, or relied upon my work.
+
+In this response, publications serve as corroborating evidence of disclosure and peer review. Patents serve as evidence that my work produced concrete technical inventions. Stakeholder-facing activities serve as evidence that my expertise and original insights were valued beyond academic publication. The proof of major significance comes from the independent use, practical reliance, and cross-sector influence of the underlying work.
