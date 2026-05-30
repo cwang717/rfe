@@ -1,0 +1,294 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{xparse}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.65em}
+\setlength{\headheight}{14pt}
+\setlist[itemize]{leftmargin=1.5em,itemsep=0.25em,topsep=0.25em}
+\setlist[enumerate]{leftmargin=1.7em,itemsep=0.25em,topsep=0.25em}
+\renewcommand{\arraystretch}{1.18}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{RFE Response -- EB-1A Petition}
+\rhead{Yu Wang, Ph.D.}
+\cfoot{\thepage}
+
+% ---------------------------------------------------------------------------
+% Editable case metadata
+% ---------------------------------------------------------------------------
+\newcommand{\LetterDate}{[Month Day, Year]}
+\newcommand{\Beneficiary}{Yu Wang, Ph.D.}
+\newcommand{\Classification}{INA \S 203(b)(1)(A)}
+\newcommand{\PetitionType}{Form I-140}
+\newcommand{\Field}{Transportation Engineering}
+\newcommand{\IntendedRole}{Lead Autonomy Engineer}
+\newcommand{\USCISAddress}{%
+USCIS\\
+Attn: I-140 (Box 660128)\\
+2501 S. State Hwy. 121 Business\\
+Suite 400\\
+Lewisville, TX 75067-8003%
+}
+
+% ---------------------------------------------------------------------------
+% Exhibit-reference helpers
+%
+% Edit only the text inside the first braces:
+%   \ExhibitRef{R-1}
+%   \ExhibitRef{12B}
+%   \ExhibitsRef{4}{R-2}
+%   \Exhibit{R-1}{Officer RFE notice}
+%   \Exhibits{4}{R-2}{Expert letter and corroborating record}
+%
+% Single exhibit IDs are detokenized, so suffixes like R-1 and 12B print
+% correctly. For two exhibits at the same time, use the plural helpers with
+% two IDs instead of typing & inside one ID.
+% ---------------------------------------------------------------------------
+\NewDocumentCommand{\ExhibitID}{m}{\detokenize{#1}}
+\NewDocumentCommand{\ExhibitRef}{m}{\textbf{Exhibit~\ExhibitID{#1}}}
+\NewDocumentCommand{\ExhibitsRef}{m m}{\textbf{Exhibits~\ExhibitID{#1}\&\ExhibitID{#2}}}
+\NewDocumentCommand{\Exhibit}{m m}{\ExhibitRef{#1}: #2}
+\NewDocumentCommand{\Exhibits}{m m m}{\ExhibitsRef{#1}{#2}: #3}
+\NewDocumentCommand{\TODO}{m}{\textcolor{red}{[TODO: #1]}}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\ResponseTableHeader}{\rowcolor{black!8}}
+
+\begin{document}
+\doublespacing
+
+\LetterDate
+
+\vspace{1em}
+\USCISAddress
+
+\vspace{1.5em}
+\textbf{RE: Response to Request for Evidence for Permanent Residency Petition for Alien of Extraordinary Ability (EB-1A)}
+
+\begin{tabular}{@{}ll@{}}
+\textbf{Petitioner/Beneficiary:} & \Beneficiary \\
+\textbf{Classification Sought:} & \Classification \\
+\textbf{Type of Petition:} & \PetitionType \\
+\textbf{Field:} & \Field \\
+\textbf{Intended Role:} & \IntendedRole \\
+\end{tabular}
+
+\vspace{1em}
+Dear USCIS Officer:
+
+I respectfully submit this response to the Request for Evidence (RFE) issued in connection with my \PetitionType{} Immigrant Petition for Alien of Extraordinary Ability (EB-1A). I appreciate the opportunity to address the officer's concerns directly and to provide additional objective evidence in support of my petition.
+
+At the outset, I note and appreciate that USCIS has already accepted two regulatory criteria: judging the work of others and authorship of scholarly articles. This response therefore focuses on the criterion that the officer has specifically requested additional evidence to evaluate: original contributions of major significance in the field. This response also addresses final merits.
+
+In this response, I do not re-argue authorship or judging. Instead, I provide objective documentary evidence, not merely support letters, to establish that my specific personal contributions were original and were used, adopted, extended, benchmarked, calibrated, validated, or relied upon by independent researchers, academic project teams, government-facing transportation professionals, industry practitioners, and multi-stakeholder groups.
+
+\tableofcontents
+\newpage
+
+\section{Executive Summary of the RFE Response}
+
+USCIS has accepted that I satisfy the judging criterion and the authorship criterion. The central issue in this response is whether my work satisfies the original-contributions criterion and, in the final merits analysis, whether the totality of my record shows sustained acclaim and recognition at the top of the field.
+
+The evidence below is organized around three field-level contributions:
+
+\begin{enumerate}
+  \item I produced real-world evidence showing how human drivers behave around autonomous vehicles.
+  \item I created a more realistic framework for predicting and simulating uncertain human driving behavior.
+  \item I developed planning, control, and learning-based methods that help autonomous vehicles move more safely and efficiently in mixed traffic.
+\end{enumerate}
+
+These contributions are not presented as mere publications. My publications disclosed the contributions, but the contributions themselves are the underlying datasets, empirical findings, analytical frameworks, control methods, and autonomous-driving insights that others later adopted, extended, benchmarked, relied upon, or used to guide practical work.
+
+\section{Roadmap of the Original Contributions}
+
+\begin{tabularx}{\textwidth}{@{}p{0.18\textwidth}YYY@{}}
+\toprule
+\textbf{Contribution} & \textbf{Officer-Friendly Description} & \textbf{Technical Description} & \textbf{Cross-Sector Translation Evidence} \\
+\midrule
+Contribution 1 & Real-world evidence showing how human drivers behave around autonomous vehicles. & Controlled mixed-traffic field experiment, human-driver behavioral dataset, and autonomous-vehicle appearance / recognizability finding. & \TODO{Add NSF/academic project support, agency/project use, and related exhibits. Example: \Exhibit{R-1}{Project support record}.} \\
+\addlinespace
+Contribution 2 & A more realistic way to predict and simulate human driving behavior. & Generalized stochastic car-following model and mixed-traffic simulation framework. & \TODO{Add Wisconsin DOT-facing training, modeling/simulation use, and related exhibits. Example: \Exhibit{12B}{Training agenda}.} \\
+\addlinespace
+Contribution 3 & Methods helping autonomous vehicles plan safer and more efficient movement in mixed traffic. & Trajectory optimization, reinforcement-learning based control, and AV planning / prediction methods. & \TODO{Add panel participation, industry implementation, patent/application records, and related exhibits. Example: \Exhibits{4}{R-2}{Expert letter and panel record}.} \\
+\bottomrule
+\end{tabularx}
+
+\section{Clarification: Publications Are Not the Contributions Themselves}
+
+The following contributions are not presented as mere publications. My publications are the vehicles through which my work was disseminated. The claimed contributions are the underlying datasets, empirical findings, analytical frameworks, control methods, and autonomous-driving insights that independent researchers, academic collaborators, government-facing audiences, and industry practitioners later adopted, extended, benchmarked, relied upon, or used to guide practical work.
+
+\section{Contribution 1: Real-World Evidence on Human Drivers Around Autonomous Vehicles}
+
+\textbf{Technical subtitle:} Controlled mixed-traffic field experiment, human-driver behavioral dataset, and autonomous-vehicle appearance / recognizability finding.
+
+\subsection{Problem Before My Work}
+
+Autonomous vehicles will share roads with human drivers for many years. Before my work, researchers and agencies lacked controlled real-world evidence showing how human drivers actually behave when following or interacting with an autonomous vehicle. Much of the existing traffic data was passively collected and did not answer this specific mixed human-AV traffic question.
+
+\subsection{What I Created and Why It Was Original}
+
+\TODO{Explain the controlled empirical design, the mixed human-AV setting, the dataset or experiment protocol, and the specific behavioral finding about AV appearance or recognizability.}
+
+\subsection{My Personal Role}
+
+\begin{tabularx}{\textwidth}{@{}YYY@{}}
+\toprule
+\textbf{Work / Evidence} & \textbf{My Specific Role} & \textbf{Exhibit} \\
+\midrule
+Field experiment on human drivers following an autonomous vehicle & \TODO{Designed/led experiment, analyzed human-driver behavior, identified AV appearance finding.} & \ExhibitRef{[ID]} \\
+Dataset / public dissemination & \TODO{Created/shared mixed-traffic data and experiment documentation.} & \ExhibitRef{[ID]} \\
+Coauthor confirmation & \TODO{Confirms personal contribution rather than only team attribution.} & \ExhibitRef{[ID]} \\
+Industry support to NSF / academic project & \TODO{Provided industry-side support, deployment perspective, or real-world implementation input.} & \ExhibitRef{[ID]} \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Objective Evidence of Adoption, Use, or Reliance}
+
+\begin{tabularx}{\textwidth}{@{}YYYY@{}}
+\toprule
+\textbf{Independent User / Entity} & \textbf{What They Used} & \textbf{How They Used It} & \textbf{Why It Matters} \\
+\midrule
+\TODO{Academic / NSF project team} & \TODO{Real-world AV industry insight or mixed-traffic knowledge.} & \TODO{Used support to strengthen project design, implementation, proposal, or publication.} & \TODO{Shows academia relied on industry-grounded expertise, not merely a paper.} \\
+\TODO{CUTR / FHWA-related AMS work} & \TODO{Mixed-traffic data and findings.} & \TODO{Used to calibrate or modify mixed-traffic simulation.} & \TODO{Shows government-related modeling reliance.} \\
+\TODO{TU Delft / T-intersection researchers} & \TODO{Field experiment and AV appearance finding.} & \TODO{Extended the field experiment to a new roadway setting.} & \TODO{Shows the work became a protocol or benchmark.} \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Why This Shows Major Significance}
+
+\TODO{Conclude that independent researchers, project teams, and government-related modeling projects used the data, protocol, findings, and industry-grounded insights to calibrate simulations, extend field experiments, support academic project design, and guide policy and engineering analysis of mixed autonomous traffic.}
+
+\section{Contribution 2: Realistic Modeling and Simulation of Human Driving Behavior}
+
+\textbf{Technical subtitle:} Generalized stochastic car-following model and mixed-traffic simulation framework.
+
+\subsection{Problem Before My Work}
+
+Traffic simulation and autonomous-vehicle testing depend on models that predict how one vehicle follows another. Traditional models often assume that drivers behave in a fixed and predictable way. Real human driving behavior is uncertain, variable, and heterogeneous. Existing models either failed to capture this uncertainty or were not practical as unified analytical tools.
+
+\subsection{What I Created and Why It Was Original}
+
+\TODO{Explain the generalized stochastic framework, uncertainty modeling, how the framework unified existing model types, and why that was more than an incremental model.}
+
+\subsection{My Personal Role}
+
+\begin{tabularx}{\textwidth}{@{}YYY@{}}
+\toprule
+\textbf{Work / Evidence} & \textbf{My Specific Role} & \textbf{Exhibit} \\
+\midrule
+Stochastic car-following model paper & \TODO{Formulated generalized model and analytical framework.} & \ExhibitRef{[ID]} \\
+Coauthor / corresponding-author statement & \TODO{Confirms personal attribution.} & \ExhibitRef{[ID]} \\
+Wisconsin DOT-facing internal training & \TODO{Served as industry representative and provided modeling, simulation, AV behavior, or deployment insight.} & \ExhibitRef{[ID]} \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Objective Evidence of Adoption, Use, or Reliance}
+
+\TODO{Add third-party publications, government-facing reports, company technical documents, citations that substantively use the model, and training records showing translation of the modeling expertise.}
+
+\subsection{Why This Shows Major Significance}
+
+\TODO{Tie the evidence to adoption of the model or framework, not citation count alone. Explain how others used it to test, simulate, benchmark, or extend mixed-traffic behavior.}
+
+\section{Contribution 3: Planning and Control Methods for Mixed Autonomous Traffic}
+
+\textbf{Technical subtitle:} Trajectory optimization, reinforcement-learning based control, and autonomous-vehicle planning / prediction methods.
+
+\subsection{Problem Before My Work}
+
+Autonomous vehicles must operate among human drivers whose behavior can be uncertain and disruptive. Planning and control systems therefore need methods that can improve safety, traffic flow, energy efficiency, and interaction quality in mixed traffic, rather than assuming that all vehicles are automated or perfectly coordinated.
+
+\subsection{What I Created and Why It Was Original}
+
+\TODO{Explain the trajectory optimization, proactive longitudinal control, lane-change assistance, reinforcement-learning, or planning methods at issue. Identify what did not exist before and what the work enabled.}
+
+\subsection{My Personal Role}
+
+\begin{tabularx}{\textwidth}{@{}YYY@{}}
+\toprule
+\textbf{Work / Evidence} & \textbf{My Specific Role} & \textbf{Exhibit} \\
+\midrule
+Trajectory optimization / control methods & \TODO{Designed method, analyzed performance, validated with simulation or empirical data.} & \ExhibitRef{[ID]} \\
+Patent / invention records & \TODO{Identify personal inventive contribution and connection to autonomous-driving implementation.} & \ExhibitRef{[ID]} \\
+Multi-stakeholder panel & \TODO{Served as industry practitioner translating AV planning/control constraints to academia, government, and stakeholders.} & \ExhibitRef{[ID]} \\
+\bottomrule
+\end{tabularx}
+
+\subsection{Objective Evidence of Adoption, Use, or Reliance}
+
+\TODO{Add FHWA/CARMA report use, company use, independent extensions, benchmarking evidence, patents, implementation records, or publications that apply the methods rather than merely cite them.}
+
+\subsection{Why This Shows Major Significance}
+
+\TODO{Explain how the evidence shows that others used the methods to solve practical mixed-traffic planning/control problems, guide new research, or support real-world AV development.}
+
+\section{Agency-by-Agency and Entity-by-Entity Rebuttal}
+
+This table directly addresses the officer's concern that claims of government or agency use must be supported by objective documentary evidence.
+
+\begin{longtable}{@{}p{0.16\textwidth}p{0.23\textwidth}p{0.24\textwidth}p{0.22\textwidth}@{}}
+\toprule
+\textbf{Agency / Entity} & \textbf{Objective Record} & \textbf{What Was Used} & \textbf{Why It Shows Major Significance} \\
+\midrule
+\endhead
+California & \TODO{Add document/report/project record.} & \TODO{Add method, finding, data, or analysis used.} & \TODO{Explain practical significance.} \\
+Florida & \TODO{Add CUTR/FHWA AMS record.} & \TODO{Add mixed-traffic data or findings used.} & \TODO{Explain modeling reliance.} \\
+Texas & \TODO{Add TxDOT or related record.} & \TODO{Add speed management, policy, or control-method use.} & \TODO{Explain agency-facing value.} \\
+Virginia & \TODO{Add document/report/project record.} & \TODO{Add method, finding, data, or analysis used.} & \TODO{Explain practical significance.} \\
+U.S. Department of Transportation / FHWA & \TODO{Add CARMA or related federal report.} & \TODO{Add trajectory optimization, cooperative automation, or mixed-traffic method used.} & \TODO{Explain federal-level reliance.} \\
+European Commission & \TODO{Add document/report/project record.} & \TODO{Add method, finding, data, or analysis used.} & \TODO{Explain international policy/research significance.} \\
+\bottomrule
+\end{longtable}
+
+\section{Cross-Sector Translation}
+
+Autonomous driving is not a purely academic field. Progress requires coordination among academia, industry, and government. Academia develops theories, methods, and research questions. Industry provides deployment experience, real vehicle constraints, data limitations, and commercialization realities. Government needs technical knowledge for safety, infrastructure, regulation, and workforce training.
+
+My record is unusually positioned across all three communities because I have a Ph.D. research background, continued academic publications and collaborations, industry experience as a Lead Autonomy Engineer, patented autonomous-driving inventions, government-facing training participation, and multi-stakeholder panel participation.
+
+\TODO{Add concrete records and exhibits showing translation across academia, industry, and government.}
+
+\section{Final Merits}
+
+The totality of the evidence demonstrates sustained national and international acclaim and shows that I am among the small percentage who have risen to the very top of the field. USCIS has already accepted my authorship and judging evidence. The strengthened original-contributions evidence in this response shows that my work did not remain within ordinary publication activity. Independent researchers, government-facing transportation professionals, academic collaborators, industry practitioners, and multi-stakeholder groups used, adopted, extended, benchmarked, calibrated, validated, or relied upon my specific contributions.
+
+\TODO{Connect accepted criteria, original-contribution evidence, objective use by others, expert explanations, industry role, patents, and future work in the United States.}
+
+\section{Exhibit Cross-Reference List}
+
+\begin{longtable}{@{}p{0.22\textwidth}p{0.70\textwidth}@{}}
+\toprule
+\textbf{Exhibit ID} & \textbf{Description} \\
+\midrule
+\endhead
+\ExhibitRef{R-1} & \TODO{RFE notice or response cover evidence.} \\
+\ExhibitRef{12B} & \TODO{Example editable exhibit ID with letter suffix.} \\
+\ExhibitsRef{4}{R-2} & \TODO{Example two-exhibit reference.} \\
+\ExhibitRef{[ID]} & \TODO{Add each exhibit used in the response.} \\
+\bottomrule
+\end{longtable}
+
+\vspace{2em}
+Respectfully submitted,
+
+\vspace{3em}
+\Beneficiary
+
+\end{document}

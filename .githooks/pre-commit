@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+
+echo "Running RFE LaTeX build before commit..."
+"$ROOT_DIR/compile_rfe.sh"
