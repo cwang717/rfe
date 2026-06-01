@@ -11,11 +11,11 @@ This response therefore focuses on the criterion that the officer has specifical
 
 In this response, I do not re-argue authorship or judging. Instead, I supply **objective documentary evidence**, not merely support letters, to establish the following:
 
-1. **My specific personal contributions were original.** I identify three field-level contributions and explain, with corroborating evidence, what I personally created that did not exist before.
-2. **My contributions have been used, adopted, extended, benchmarked, calibrated, validated, and relied upon** by independent researchers, academic project teams, government-facing transportation professionals, industry practitioners, and multi-stakeholder groups.
+1. **My specific personal contributions were original.** I identify two field-level contributions and explain, with corroborating evidence, what I personally created that did not exist before.
+2. **My contributions have been used, adopted, extended, benchmarked, or relied upon** by independent researchers, government-facing transportation professionals, academic collaborators, and industry practitioners.
 3. **My contributions are of major significance** because they have moved beyond publication and into practical use across the communities that matter most in autonomous driving: academia, industry, and government.
 
-The officer's RFE helpfully identifies the types of evidence that would be probative—including adoption, implementation, or use by others. I have organized this response to address those concerns directly. The evidence is presented in three contribution sections, each following a consistent structure that identifies:
+The officer's RFE helpfully identifies the types of evidence that would be probative—including adoption, implementation, or use by others. I have organized this response to address those concerns directly. The evidence is presented in two technical contribution sections, each following a consistent structure that identifies:
 
 - The problem that existed before my work;
 - What I created and why it was original;
@@ -24,6 +24,6 @@ The officer's RFE helpfully identifies the types of evidence that would be proba
 - Cross-sector translation evidence showing practical impact; and
 - Why this contribution demonstrates major significance in the field.
 
-Following those three contribution sections, I present an agency-by-agency rebuttal table directly addressing each entity the officer specifically identified, supplying the objective documentary evidence requested. I then present a cross-cutting synthesis explaining why my position at the intersection of academia, industry, and government is especially probative in autonomous driving, and conclude with a final merits argument.
+Following those two contribution sections, I present an agency-by-agency rebuttal table directly addressing each entity the officer specifically identified, supplying the objective documentary evidence requested. I then present a cross-cutting synthesis explaining why my position at the intersection of academia, industry, and government is especially probative in autonomous driving, and conclude with a final merits argument.
 
 I respectfully submit that the evidence provided in this response, together with the record already accepted by USCIS, establishes original contributions of major significance and sustained acclaim at the top of the field. I respectfully request approval of my petition.
