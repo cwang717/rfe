@@ -39,3 +39,53 @@ The originality of my contribution lies in connecting these pieces into one prac
 This contribution is original because prior work often treated human driving behavior as deterministic, lacked controlled field evidence for human-following-AV behavior, focused on simpler traffic settings, or assumed that prediction models trained in one environment could be reused without addressing domain differences. My work helped move the field toward a more realistic approach: human drivers are uncertain; their behavior around AVs can change when the AV is recognizable; complex traffic prediction must consider interactions among multiple vehicles; and prediction models must be adaptable when mixed-traffic data are scarce.
 
 The publications, datasets, models, and patents discussed below are therefore not presented as publications alone. They are evidence of the underlying contribution: a set of original methods and empirical findings that helped the field better understand and predict human-driver behavior in mixed AV-human traffic.
+
+## 4.D. Objective Evidence of Adoption, Use, Extension, or Reliance
+
+This subsection provides objective evidence that later independent users did not merely cite my work as background literature. Instead, they used my contributions as data, experimental design, empirical findings, methodological foundation, technical benchmark, or implementation basis. I separately discuss patents as translational and technical-implementation evidence, rather than characterizing them as third-party adoption.
+
+### Evidence Map
+
+| Category | Evidence and Significance |
+| --- | --- |
+| Experiment adoption | **Royal HaskoningDHV / TU Delft — Soni et al. (2022), Exhibit 4D-1.** Extended my controlled human-following-AV experiment direction to new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. |
+| Public-sector use | **FHWA project report — Huang et al. (2021), including Qianwen Li from CUTR, Florida, Exhibit 4D-2.** Used my mixed-traffic field-experiment evidence in government-related AMS / simulation work for mixed traffic and automated-driving systems. |
+| Public-sector use | **European Commission / Joint Research Centre — Makridis et al. (2022), Exhibit 4D-3.** Used my empirical findings on human-driver heterogeneity to support international public-sector analysis of stochastic traffic simulation. |
+| Theory extension | **Mohammadian (2021), Queensland University of Technology, Exhibit 4D-4.** Used my human-following-AV findings to motivate a behavioral continuum framework for mixed-traffic dynamics and safety. |
+| Theory extension | **Ngoduy (2021), Monash University, Australia, Exhibit 4D-5.** Built upon my stochastic car-following and stability-analysis framework in later stochastic traffic-flow theory. |
+| Benchmarking | **Yang et al. (2025), Exhibit 4D-6.** Used my transformer-based vehicle trajectory prediction work as a methodological comparison and future research benchmark in CAV/platoon prediction-control research. |
+| Dataset use | **Public GitHub dataset: Field-Experiment-Data, Exhibit 4D-7.** Made the underlying mixed-traffic experiment reproducible and usable by later researchers. |
+| Patent translation | **U.S. Patent No. [Patent 1] — Intention Prediction in Symmetric Scenarios, Exhibit 4D-8.** Shows that my autonomous-driving prediction work became a protected technical invention, not merely an academic article. |
+| Patent translation | **U.S. Patent No. [Patent 3] — Reinforcement Learning Techniques for Network-Based Transfer Learning, Exhibit 4D-9.** Shows technical implementation of my model-transfer work for autonomous-driving prediction systems. |
+
+### 4.D.1. Independent researchers extended my field-experiment contribution into new human-driver/AV interaction studies.
+
+My field-experiment contribution addressed a specific gap in mixed-traffic research: before my work, researchers lacked controlled real-world evidence showing how human drivers behave when following an autonomous vehicle rather than another human-driven vehicle. My work provided both the experimental design and the empirical finding that human-driver response depends not only on the AV’s actual driving behavior, but also on whether the AV is recognizable to the human driver.
+
+Royal HaskoningDHV and TU Delft researchers later used this same research direction as the basis for their own controlled field test in the Netherlands. Their study did not merely cite my paper in passing. It extended the issue I investigated—human-driver behavioral adaptation when interacting with AVs—into additional interaction types, including gap acceptance, car-following, and overtaking. Their field test with 18 participants and a Wizard-of-Oz AV expanded the experimental scope from my original HV-following-AV setting to broader behavioral-adaptation scenarios.
+
+This shows major significance because my contribution became part of the experimental foundation for later real-world AV-human interaction studies. Later researchers treated the question I opened—whether and how human drivers change behavior around AVs—as a research direction worth independently extending.
+
+### 4.D.2. Government-related and public-sector researchers relied on my field-experiment findings for mixed-traffic modeling, simulation, and policy-relevant analysis.
+
+My field-experiment contribution was also used beyond ordinary academic follow-up studies. The FHWA project report by Huang et al. (2021), including Qianwen Li from the Center for Urban Transportation Research in Florida, used my mixed-traffic field-experiment evidence in government-related analysis, modeling, and simulation work. This is important because it directly addresses the officer’s concern that government-agency-related claims should be supported by objective documentary evidence rather than recommendation letters alone.
+
+The European Commission / Joint Research Centre evidence provides further independent public-sector reliance. Makridis et al. (2022) used my empirical findings in the context of characterizing driver heterogeneity within stochastic traffic simulation. This use is significant because the European Commission researchers were not simply discussing AVs in general; they used the type of human-driver heterogeneity revealed by my work to support a policy-relevant and simulation-relevant framework for understanding stochastic traffic behavior.
+
+Together, these records show that my field-experiment contribution reached government-related and international public-sector research contexts. This is stronger than a citation-count argument because it shows that my work supplied usable empirical evidence for simulation, mixed-traffic modeling, and public-sector analysis.
+
+### 4.D.3. Later researchers used my work as a methodological foundation for new traffic-flow theory and mixed-traffic safety research.
+
+My work also influenced later theoretical development. Mohammadian (2021) used my field-experiment findings to explain why mixed-traffic models must account for human factors when conventional vehicles interact with CAVs. The thesis specifically relied on my finding that some human drivers maintain smaller gaps when following AVs, while others keep larger gaps because they do not trust automated driving. This use shows that my empirical finding helped motivate a broader behavioral-continuum framework for freeway traffic-flow dynamics and safety.
+
+Separately, Ngoduy (2021) used my stochastic car-following and stability-analysis contribution in later traffic-flow theory. My stability-analysis work addressed a fundamental methodological gap: deterministic car-following stability tools could not adequately analyze stochastic human-driver behavior and stochastic traffic oscillations. Ngoduy’s later work on noise-induced instability in stochastic higher-order continuum traffic models built upon this research direction.
+
+These examples show that my contributions were used at two different levels: empirical mixed-traffic behavior and mathematical traffic-flow theory. This supports major significance because the work did not remain confined to the original publications; it supplied concepts and methods that later researchers used to construct new models and research frameworks.
+
+### 4.D.4. My prediction and transfer-learning contributions were used in later technical development and were further translated into protected technical inventions.
+
+My later work on trajectory prediction also became part of subsequent technical development. Yang et al. (2025) used my transformer-based vehicle trajectory prediction study as a methodological comparison in later CAV/platoon-control research. The later study compared prediction approaches and discussed input-output time-window design in light of my transformer trajectory-prediction work. This shows that my prediction contribution was used as a technical reference and benchmark in later connected-vehicle control research, not merely as background literature.
+
+In addition to independent third-party use, my patents provide separate translational evidence that my contributions were not merely academic papers. Patent 1, concerning intention prediction in symmetric scenarios, shows that my autonomous-driving prediction work was translated into a protected technical solution for a practical AV problem involving ambiguous or symmetric traffic interactions. Patent 3, concerning reinforcement learning techniques for network-based transfer learning, shows that my model-transfer research was also translated into a protected technical implementation for selecting transferable neural-network parameters.
+
+I do not present these patents as third-party adoption evidence. Rather, they corroborate that my research produced concrete technical solutions capable of implementation in autonomous-driving prediction and transfer-learning systems. When considered together with the independent third-party use described above, the patents further support that my contributions were original, practical, and significant beyond publication alone.
