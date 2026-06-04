@@ -336,30 +336,79 @@ The following evidence is not presented as a separate contribution. It shows tha
 
 \TODO{Use expert letters only after objective evidence. Reference: Yang Zhou (stochastic model originality, benchmark value, field experiment significance); Jianming Ma (policy/regulatory significance, AV appearance, mixed-traffic data, DOT relevance); coauthor/corresponding author (personal attribution); NSF/project organizer (reliance on industry-grounded expertise, if available); Wisconsin DOT training organizer (government-facing reliance, if available).}
 
-\section{Contribution 2: Optimization- and Learning-Based Trajectory Planning/Control for Mixed Traffic Under Human-Driver Disruption and Deployment Constraints}
+\section{Contribution 2: Making Autonomous Vehicle Planning Work in Mixed Traffic}
 
-\textbf{Technical subtitle:} Trajectory optimization, proactive longitudinal control, reinforcement-learning trajectory control, transfer learning, and patented AV prediction / planning / learning methods.
+\textbf{Technical scope:} Trajectory optimization, learning-based motion planning, and proactive vehicle control methods that help connected and autonomous vehicles operate safely and efficiently around human drivers at road segments, intersections, and roundabouts.
 
 \subsection{Problem Before My Work}
 
-Autonomous and connected vehicles must operate around human-driven vehicles that may cut in, change lanes, slow down unpredictably, or disrupt traffic flow. Earlier AV/CAV planning and control methods often relied on simplified assumptions, fixed input structures, or idealized traffic behavior. These assumptions limited their usefulness for real-world mixed traffic, where AVs must make safe, efficient, smooth, and reliable decisions around human drivers.
+Autonomous and connected vehicles must operate in mixed traffic, where human-driven vehicles and automated vehicles interact with each other. This is not only a vehicle-control problem. It is also a human--machine interaction problem: human drivers may change their behavior when they see, follow, cut in front of, or negotiate space with an automated vehicle. Therefore, a deployable planning and control method must account for both the automated vehicle's own trajectory and the human driver's response to that trajectory.
 
-A few key terms: \textbf{trajectory optimization} means choosing a vehicle's speed and path to improve safety, travel time, fuel use, or comfort. \textbf{Reinforcement learning} is an AI method where a system learns decisions by testing actions and receiving rewards or penalties. \textbf{Proactive longitudinal control} means controlling vehicle motion in advance to manage or prevent disruptions caused by human-driven vehicles. A \textbf{benchmark} is a reference method or dataset that others use to test whether their own systems work well. A \textbf{deployment constraint} is a real-world limitation such as missing data, variable input size, safety requirements, computational limits, or unpredictable human behavior.
+Before my work, the field faced three related gaps.
+
+First, trajectory planning and control methods for connected automated vehicles had not been systematically organized around the mixed-traffic interaction problem. Classical trajectory optimization research studied how to improve safety, travel time, fuel or energy use, and comfort. Learning-based autonomous-driving research studied how vehicles can make data-driven motion decisions. Traffic-flow research studied congestion, oscillation, and system-level traffic impacts. However, these research streams were often separated. As a result, the field lacked a clear framework for understanding how optimization-based and learning-based planning/control methods should be evaluated when an automated vehicle must interact with human drivers and affect the surrounding traffic stream.
+
+Second, many existing methods were developed for simplified road segments or idealized traffic settings and could not be directly applied to complex roadway structures. At signalized intersections, vehicles must coordinate with traffic signals, stopping behavior, acceleration and deceleration patterns, and infrastructure guidance. At roundabouts, vehicles must negotiate merging, yielding, timing, and circulating traffic. In these settings, human--AV interaction is especially important because small differences in vehicle behavior can affect safety, delay, fuel consumption, and traffic smoothness. Therefore, planning/control methods needed to be adapted to these structure-specific interaction problems rather than assumed to work automatically across all traffic environments.
+
+Third, earlier AV/CAV planning and control methods often treated human-driven vehicles as external disturbances that the automated vehicle should avoid or react to. But in mixed traffic, a connected or automated vehicle can do more than react. Through its own longitudinal behavior---such as adjusting speed, creating gaps, or smoothing traffic flow---it can influence human drivers' lane-change decisions and reduce traffic disruption before it fully develops. The field therefore needed proactive control methods that could manage or prevent disruptive human-driver behavior, rather than merely respond after a cut-in or lane-change disturbance had already occurred.
+
+In plain English, the problem was this: real mixed traffic is an interaction system. Automated vehicles do not move in isolation. Their planning and control decisions affect human drivers, and human drivers' responses affect safety, efficiency, comfort, fuel/energy use, and congestion. My work addressed how to design optimization- and learning-based trajectory planning/control methods for this human--AV interaction environment.
+
+For clarity, the key terms are as follows:
+
+\begin{itemize}
+  \item \textbf{Trajectory optimization} means selecting a vehicle's speed and path over time to improve safety, travel time, fuel or energy use, and passenger comfort.
+  \item \textbf{Learning-based motion planning} means using data-driven or AI methods to help a vehicle make driving decisions.
+  \item \textbf{Human--AV interaction} means the way human drivers and automated vehicles affect each other's behavior in mixed traffic.
+  \item \textbf{Proactive longitudinal control} means controlling a vehicle's forward motion in advance to manage or prevent human-driver disruption.
+  \item \textbf{Deployment constraint} means a real-world limitation, such as uncertain human behavior, variable input size, missing data, infrastructure constraints, computation time, or safety requirements.
+\end{itemize}
 
 \subsection{What I Created and Why It Was Original}
 
-I developed optimization- and learning-based methods for trajectory planning and control in mixed traffic, especially addressing the practical problem that human-driven vehicles disrupt AV/CAV operations through uncertain behavior and lane changes.
+My contribution is not the broad field of autonomous vehicle planning and control. My contribution is narrower and more specific: \textbf{optimization- and learning-based trajectory planning/control for mixed traffic under human-driver interaction, roadway-structure constraints, and proactive disruption management.}
 
-My work advanced the field through:
+I created and helped develop a connected body of work that moved AV/CAV trajectory planning and control from idealized vehicle motion toward deployable mixed-traffic interaction methods. This contribution had three parts.
 
-\begin{enumerate}
-  \item Trajectory optimization methods for safety, efficiency, smoothness, and energy/fuel performance.
-  \item Proactive longitudinal control methods to manage or preclude disruptive lane changes by human-driven vehicles.
-  \item Reinforcement-learning approaches that improve trajectory control under realistic data and deployment constraints.
-  \item Patented AV prediction, planning, and learning methods that show continued translation of this research line into implementable AV technology.
-\end{enumerate}
+\subsubsection{I helped create a systematic framework connecting trajectory optimization, learning-based planning, and mixed-traffic human--AV interaction.}
 
-\TODO{Add specific technical description of the optimization formulation, proactive control logic, RL approach with transfer learning, transfer parameter selection, data imputation, variable-input-size handling, etc.}
+In my first-authored review paper, \textit{Review of trajectory optimisation for connected automated vehicles}, I organized the emerging field of CAV trajectory optimization and clarified the practical tradeoffs among safety, efficiency, fuel/energy use, comfort, computation, and implementation feasibility.
+
+In \textit{Trajectory optimization for a connected automated traffic stream: Comparison between an exact model and fast heuristics}, I helped address a practical implementation issue: exact optimization can produce high-quality trajectories but may be computationally expensive, while fast heuristic methods are more practical but must be evaluated carefully. This work helped clarify how trajectory optimization could become both technically reliable and computationally feasible for connected automated traffic streams.
+
+In \textit{Review of learning-based longitudinal motion planning for autonomous vehicles: research gaps between self-driving and traffic congestion}, I further connected trajectory planning with learning-based AV decision-making and traffic-flow impacts. This work identified a key gap between self-driving research, which often focuses on the ego vehicle's motion, and transportation-engineering research, which evaluates how vehicle decisions affect congestion, surrounding vehicles, and system-level traffic performance.
+
+Together, these works helped establish a systematic planning/control perspective for mixed traffic: an AV/CAV trajectory should not be evaluated only by whether the automated vehicle completes its own maneuver, but also by how it interacts with human drivers and how it affects traffic safety, smoothness, efficiency, and energy performance.
+
+This was original because it connected research streams that were often treated separately. I helped bridge optimization-based CAV trajectory control, learning-based AV motion planning, and traffic-flow-aware evaluation into a more deployable mixed-traffic framework.
+
+\subsubsection{I helped develop trajectory planning/control methods for structure-specific interaction environments, including signalized intersections and roundabouts.}
+
+My work also addressed the fact that mixed-traffic interaction is not the same across all roadway environments. Certain roadway structures create special interaction problems that require dedicated planning/control methods.
+
+In \textit{A trajectory smoothing method at signalized intersection based on individualized variable speed limits with location optimization}, I helped develop a method to smooth vehicle trajectories through signalized intersections. The method addressed not only what speed guidance should be given, but also where individualized variable speed limit control should be located. This helped reduce unnecessary braking, acceleration, delay, and fuel consumption in an infrastructure-constrained environment.
+
+In \textit{Cooperative roundabout control strategy for connected and autonomous vehicles}, I helped extend cooperative control to roundabouts, where vehicles must coordinate entry, circulation, yielding, and timing. In this setting, safe and efficient operation depends on managing interactions among multiple vehicles under geometric constraints.
+
+These works were original because they did not assume that a generic trajectory-control method could be directly transferred to all road environments. Instead, they addressed how planning/control should be adapted to specific roadway structures where vehicle interaction, infrastructure, and traffic geometry jointly determine performance.
+
+\subsubsection{I helped develop proactive control methods that use CAV behavior to manage or prevent disruptive human-driver behavior.}
+
+A central part of my contribution was addressing human-driver disruption directly.
+
+In \textit{Proactive longitudinal control to manage disruptive lane changes of human-driven vehicles in mixed-flow traffic}, \textit{Proactive longitudinal control to preclude disruptive lane changes of human-driven vehicles in mixed-flow traffic}, and \textit{Proactive longitudinal control of connected and autonomous vehicles with lane-change assistance for human-driven vehicles}, I helped develop methods for connected and automated vehicles to proactively adjust their longitudinal motion around lane-changing human-driven vehicles.
+
+The original idea was that a CAV should not simply react after a human driver cuts in or creates a traffic disturbance. Instead, the CAV can act before the disruption fully develops. It can adjust its speed, create safer gaps, assist a human-driven vehicle's lane change when appropriate, or reduce the likelihood that a disruptive lane change will damage traffic flow.
+
+This reframed the role of the CAV in mixed traffic. The vehicle is not merely an automated agent optimizing its own path. It is also a controllable participant in a human--machine traffic system. By choosing its own longitudinal behavior, the CAV can influence human-driver behavior and improve the overall traffic outcome.
+
+\subsubsection{Summary of Originality}
+
+Taken together, these works created a focused contribution: \textbf{Practical Planning and Control for Autonomous Vehicles in Mixed Traffic.}
+
+The originality was not that I worked on autonomous vehicle planning/control generally. The originality was that I addressed the practical mixed-traffic version of the problem: how automated and connected vehicles can plan and control trajectories when human drivers interact with them, when intersections and roundabouts create special interaction constraints, and when CAVs can proactively influence human-driver behavior to improve traffic safety, smoothness, efficiency, and energy/fuel performance.
+
+The papers are the vehicles through which the contribution was reported. The contribution itself is the set of methods, frameworks, and technical findings that helped make AV/CAV trajectory planning and control more realistic and deployable for mixed traffic.
 
 \subsection{My Personal Role}
 
@@ -386,20 +435,6 @@ Leidos / FHWA-related engineering & Trajectory benchmarks, field data, or simula
 Independent researchers & Proactive control, RL, or trajectory optimization methods & Extended or benchmarked against my methods. & \ExhibitRef{[ID]} \\
 Pony.ai / other AV company & Mixed-traffic control framework or lane-change assistance concept & Used to improve mixed-traffic lane-change algorithms or safety evaluation. & \ExhibitRef{[ID]} \\
 Book / editorial invitation & Expertise in AI, RL, or trajectory optimization & Invited to edit or contribute to a major technical book or chapter. & \ExhibitRef{[ID]} \\
-\bottomrule
-\end{tabularx}
-
-\subsection{Patents as Practical Translation Evidence}
-
-I do not rely on patents alone to establish the original-contributions criterion. Rather, my granted U.S. patents corroborate that my research expertise has continued to translate into practical autonomous-vehicle prediction, planning, and learning systems. These patents support the broader record showing that my contributions are not confined to academic publications but extend into implementable AV technologies.
-
-\begin{tabularx}{\textwidth}{@{}p{0.28\textwidth}p{0.32\textwidth}Y@{}}
-\toprule
-\textbf{Patent} & \textbf{Technical Relevance} & \textbf{Exhibit} \\
-\midrule
-Reinforcement learning technique for network-based transfer learning & RL transfer learning / target-domain adaptation---supports learning-based AV planning/control expertise under deployment constraints. & \ExhibitRef{[ID]} \\
-Hierarchical vehicle action prediction & Vehicle action prediction / planning stack---supports AV prediction and planning for complex traffic scenarios. & \ExhibitRef{[ID]} \\
-Intention prediction in symmetric scenarios & Intention prediction / scenario understanding---supports practical AV behavior prediction and planning. & \ExhibitRef{[ID]} \\
 \bottomrule
 \end{tabularx}
 
