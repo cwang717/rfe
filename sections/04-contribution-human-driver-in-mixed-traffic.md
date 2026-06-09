@@ -89,3 +89,23 @@ My later work on trajectory prediction also became part of subsequent technical 
 In addition to independent third-party use, my patents provide separate translational evidence that my contributions were not merely academic papers. Patent 1, concerning intention prediction in symmetric scenarios, shows that my autonomous-driving prediction work was translated into a protected technical solution for a practical AV problem involving ambiguous or symmetric traffic interactions. Patent 3, concerning reinforcement learning techniques for network-based transfer learning, shows that my model-transfer research was also translated into a protected technical implementation for selecting transferable neural-network parameters.
 
 I do not present these patents as third-party adoption evidence. Rather, they corroborate that my research produced concrete technical solutions capable of implementation in autonomous-driving prediction and transfer-learning systems. When considered together with the independent third-party use described above, the patents further support that my contributions were original, practical, and significant beyond publication alone.
+
+## 4.E. Supporting Expert Letters
+
+The expert letters submitted with this response should be read as explanatory corroboration of the objective evidence above, not as a substitute for that evidence. The expert letters help explain why those objective documents matter in the field and how they are connected to my specific contribution.
+
+### Stochastic car-following modeling
+
+Dr. Yang Zhou (Exhibit 1), an independent transportation-engineering scholar at Texas A&M University, explains the originality and significance of my stochastic car-following work. As his original letter stated---which the officer has already seen---my paper in *Transportation Science* represented "a fundamental theory breakthrough" and "the greatest advance" in modeling the complexity and uncertainty of real-world driving behavior. He explains that by formulating a generalized stochastic framework that could represent six distinct types of state-of-the-art car-following models, I provided a single analytical tool that outperformed them all, placing my work in "the top percentage in the field." This explains why later researchers such as Ngoduy built upon my stochastic framework in their own traffic-flow theory---they were extending a modeling approach that had demonstrated both generality and analytical power that deterministic alternatives did not offer.
+
+### Field-experiment findings and AV-appearance evidence
+
+Dr. Jianming Ma (Exhibit 4), Director of the Traffic Management Section in the Traffic Safety Division of the Texas Department of Transportation, explains the public-sector significance of my human-following-AV field experiment. As his original letter stated, my discovery "made it clear that federal, state and local transportation policymakers and regulatory agencies should consider regulations of AV appearance, which was never put on the table before." Dr. Ma also independently confirms that researchers at CUTR in Florida used my mixed-traffic field data to calibrate simulation tools for FHWA-sponsored AMS work, corroborating the public-sector reliance documented above.
+
+### Personal attribution
+
+The corresponding-author statement (Exhibit 12) further addresses personal attribution. Because some of the relevant works were collaborative, this statement helps confirm that the contribution was personally mine rather than an undifferentiated group achievement, directly responsive to the RFE's concern that the record should identify my specific personal contribution.
+
+### Cross-sector corroboration
+
+The support letters from Dr. Xiaowei (Tom) Shi and Dr. Qianwen (Cami) Li independently confirm that my Contribution 1 expertise was sought beyond publication---by government-facing officials evaluating AV deployment readiness and by an academic institution training the next generation of transportation researchers. These letters have been discussed in the cross-sector evidence above.
