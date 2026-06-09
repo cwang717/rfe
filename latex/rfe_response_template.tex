@@ -33,18 +33,19 @@
 % ---------------------------------------------------------------------------
 % Editable case metadata
 % ---------------------------------------------------------------------------
-\newcommand{\LetterDate}{[Month Day, Year]}
+\newcommand{\LetterDate}{Jun 5, 2026}
 \newcommand{\Beneficiary}{Yu Wang, Ph.D.}
 \newcommand{\Classification}{INA \S 203(b)(1)(A)}
 \newcommand{\PetitionType}{Form I-140}
 \newcommand{\Field}{Transportation Engineering}
 \newcommand{\IntendedRole}{Lead Autonomy Engineer}
 \newcommand{\USCISAddress}{%
-USCIS\\
-Attn: I-140 (Box 660128)\\
-2501 S. State Hwy. 121 Business\\
-Suite 400\\
-Lewisville, TX 75067-8003%
+Premium Processing\\
+Officer: XM2372\\
+USCIS/TSC\\
+Attn: RFE/NOID/NOIR/NOIT\\
+6046 N Belt Line Rd STE 111\\
+Irving, TX 75038-0011%
 }
 
 % ---------------------------------------------------------------------------
@@ -87,7 +88,7 @@ Lewisville, TX 75067-8003%
 \textbf{Classification Sought:} & \Classification \\
 \textbf{Type of Petition:} & \PetitionType \\
 \textbf{Field:} & \Field \\
-\textbf{Intended Role:} & \IntendedRole \\
+% \textbf{Intended Role:} & \IntendedRole \\
 \end{tabular}
 
 \vspace{1em}
@@ -125,7 +126,7 @@ The officer's RFE helpfully identifies the types of evidence that would be proba
 
 Following those two contribution sections, I present an agency-by-agency rebuttal table directly addressing each entity the officer specifically identified, supplying the objective documentary evidence requested. I then conclude with a final merits argument and a complete exhibit cross-reference list.
 
-I do not present panel discussions, NSF support, Wisconsin DOT-facing training, advisory roles, or patents as separate contributions. Instead, I use them as objective evidence of translation, adoption, reliance, and practical use supporting my two technical original contributions.
+I do not present panel discussions, Wisconsin DOT-facing symposium participation, advisory roles, or patents as separate contributions. Instead, I use them as objective evidence of translation, adoption, reliance, and practical use supporting my two technical original contributions. The Wisconsin DOT-facing symposium panel is one such panel, but it is not the only multi-stakeholder panel evidence in my record.
 
 I respectfully submit that the evidence provided in this response, together with the record already accepted by USCIS, establishes original contributions of major significance and sustained acclaim at the top of the field. I respectfully request approval of my petition.
 
@@ -168,9 +169,9 @@ I respectfully submit that the evidence provided in this response, together with
 \toprule
 \textbf{Contribution} & \textbf{Specific Original Contribution} & \textbf{Main Technical Evidence} & \textbf{Translation / Reliance Evidence} \\
 \midrule
-Contribution 1 & Stochastic and empirical modeling of human-driver behavior in mixed AV-human traffic. & First-authored stochastic car-following model; controlled HV-following-AV field experiment; mixed-traffic dataset; AV appearance / trust finding. & NSF / academic project support; Wisconsin DOT-facing training; AMS/CUTR/FHWA-related use; regulatory/policy discussion; independent researchers extending the work. \\
+Contribution 1 & Stochastic and empirical modeling of human-driver behavior in mixed AV-human traffic. & First-authored stochastic car-following model; controlled HV-following-AV field experiment; mixed-traffic dataset; AV appearance / trust finding. & Independent researchers extending the work; 2025 Southeast Wisconsin Transportation Symposium workshop / Wisconsin DOT-facing panel; regulatory and deployment discussion. \\
 \addlinespace
-Contribution 2 & Optimization- and learning-based trajectory planning/control for mixed traffic under human-driver disruption and deployment constraints. & Trajectory optimization papers; proactive longitudinal control papers; reinforcement-learning methods; patents on AV learning, vehicle action prediction, and intention prediction. & FHWA/CARMA/Leidos-type use; multi-stakeholder panel; industry adoption; benchmark use; patents as practical translation evidence. \\
+Contribution 2 & Optimization- and learning-based trajectory planning/control for mixed traffic under human-driver disruption and deployment constraints. & Trajectory optimization papers; proactive longitudinal control papers; reinforcement-learning methods; patents on AV learning, vehicle action prediction, and intention prediction. & FHWA/CARMA/Leidos-type use; multi-stakeholder panel participation; industry adoption; benchmark use; patents as practical translation evidence. \\
 \bottomrule
 \end{tabularx}
 
@@ -310,31 +311,45 @@ I do not present these patents as third-party adoption evidence. Rather, they co
 
 \subsection{Cross-Sector Translation Evidence}
 
-The following evidence is not presented as a separate contribution. It shows that government-facing and academic stakeholders sought my technical expertise beyond publication.
+The following evidence is not presented as a separate contribution. It shows that government-facing transportation stakeholders sought my technical expertise beyond publication and that my mixed-traffic research translated into practical deployment, permitting, safety, and data discussions.
 
-\subsubsection{NSF / Academic Project Support}
+\subsubsection{2025 Southeast Wisconsin Transportation Symposium Workshop and Wisconsin DOT-Facing Panel}
 
-\TODO{Include if evidence shows academic researchers sought my industry-side input.}
+On October 10, 2025, I served as a panelist for a workshop at the 2025 Southeast Wisconsin Transportation Symposium. The workshop was structured around a practical government-deployment scenario: if an autonomous-vehicle company approaches a state or local government and asks to deploy a new AV technology in that jurisdiction, how should the public agency respond, permit the operation, monitor performance, and evaluate safety after deployment? The panel was designed to bring together government representatives, industry representatives, academia, test facilities, and rural-government representatives to discuss AV deployment readiness, data needs, safety metrics, infrastructure needs, and public-sector evaluation of AV operations. \ExhibitRef{[ID]}.
 
-\TODO{Insert framing: academic researchers did not merely cite my published work; they sought my industry-grounded expertise to connect mixed-traffic research with real-world autonomous-driving deployment constraints, data limitations, and validation needs.}
+This workshop is directly tied to Contribution 1 because the central public-sector question was not only whether an AV technology exists, but how government agencies can understand and evaluate its interaction with human drivers in real traffic. My Contribution 1 addresses precisely that problem. Through my stochastic human-driver modeling, controlled human-vehicle-following-AV field experiment, mixed-traffic behavioral dataset, and AV-appearance / trust findings, I developed evidence showing that human drivers may change their following behavior when interacting with an AV and that these interactions can affect traffic stability, safety margins, congestion, and deployment evaluation.
 
-\TODO{Insert evidence: NSF proposal excerpt, PI letter, email requesting support, acknowledgment or project document, evidence tying the project to mixed traffic, AV-human interaction, simulation, validation, deployment, or data.}
+During the panel discussion, I explained from an industry and research perspective that AV deployment cannot be evaluated only by examining the automated vehicle in isolation. Government agencies also need to understand how surrounding human drivers respond to AV behavior, whether human drivers trust or distrust the AV, how following gaps and acceleration responses change, and how those local interaction patterns can propagate into broader traffic effects. This is the same technical issue addressed by my field data and models: human-driver--AV interaction is a measurable mixed-traffic phenomenon that can affect traffic flow, safety, and the criteria by which public agencies monitor AV operations.
 
-\subsubsection{Wisconsin DOT-Facing Training}
+My role on the panel therefore reflects cross-sector translation of Contribution 1. The audience and workshop questions were government-facing rather than purely academic. The discussion concerned permitting, post-deployment monitoring, safety-performance metrics, AV-related data sharing, infrastructure needs, and how research and testing can help governments and the public evaluate AV technologies. Because my work includes both field data and modeling of human-driver behavior around AVs, I was able to connect technical evidence to the practical information that government transportation officials need when considering AV deployment in their jurisdictions.
 
-\TODO{Include here if the training topic relates to AV behavior, simulation, modeling, safety, data, or deployment constraints.}
-
-\TODO{Insert framing: government-facing transportation professionals sought my technical expertise in mixed-traffic behavior, AV modeling, simulation, safety, and deployment constraints.}
-
-\TODO{Insert evidence: training agenda, speaker list, organizer letter, audience description, slides or topic outline, proof that I was the only or key industry representative.}
+The submitted evidence includes the symposium workshop agenda, panel description, and a support letter from the organizer confirming the composition of the audience, including the percentage of participants affiliated with the Wisconsin Department of Transportation or related public transportation agencies. \ExhibitRef{[ID]}. This evidence shows that this was not merely a general academic speaking opportunity. It was a government-facing AV deployment workshop in which my expertise on human-driver--AV interaction, mixed-traffic field evidence, and driver-behavior modeling was used to inform public-sector discussion of how AVs should be evaluated, permitted, monitored, and integrated into real traffic.
 
 \subsection{Why Contribution 1 Shows Major Significance}
 
-\TODO{Conclude: independent researchers and government-related projects did not merely cite my work as background. They used my stochastic modeling framework, empirical data, field-experiment protocol, behavioral findings, and mixed-traffic insights to improve simulation, extend experiments, guide later CAV control research, and analyze human-driver adaptation around autonomous vehicles. This evidence shows substantive reliance on my contribution rather than ordinary publication or citation.}
+Contribution 1 is significant because it changed the technical baseline for studying mixed AV-human traffic. Before this work, mixed-traffic research often had to assume that human drivers would respond to an autonomous vehicle in the same way they respond to any other vehicle, or that human following behavior could be represented by relatively fixed deterministic rules. My work supplied a different foundation: human-driver behavior around AVs is uncertain, measurable, affected by AV appearance and trust, and important enough to model directly. The stochastic car-following framework, controlled human-following-AV field experiment, mixed-traffic behavioral dataset, and related prediction methods therefore addressed a central deployment problem rather than a narrow publication topic.
+
+The strongest evidence of major significance is that independent researchers used this foundation to build later work. Royal HaskoningDHV and TU Delft researchers extended my controlled human-driver/AV interaction research direction into new field-test settings involving gap acceptance, car-following, and overtaking. \ExhibitRef{4D-1}. Mohammadian used my human-following-AV findings to motivate a behavioral-continuum framework for mixed-traffic dynamics and safety, including the finding that human drivers may either follow AVs more closely or leave larger gaps depending on trust. \ExhibitRef{4D-4}. Ngoduy built on the stochastic car-following and stability-analysis direction in later stochastic traffic-flow theory. \ExhibitRef{4D-5}. These examples show that later researchers did not merely mention my publications; they used my empirical findings and modeling approach to frame new experiments, safety analysis, and traffic-flow theory.
+
+The contribution also reached government-related and public-sector research contexts, which directly addresses the officer's concern that agency-related use should be objectively documented. The FHWA project report by Huang et al. (2021), including Qianwen Li from CUTR, used my mixed-traffic field-experiment evidence in government-related modeling and simulation work. \ExhibitRef{4D-2}. Separately, European Commission / Joint Research Centre researchers used my empirical findings on human-driver heterogeneity to support stochastic traffic-simulation analysis. \ExhibitRef{4D-3}. This public-sector use is important because it shows that my work was useful for simulation, evaluation, and policy-relevant transportation analysis, not only for academic citation.
+
+Additional evidence confirms that the contribution was reusable and practically translatable. The public field-experiment dataset made the underlying empirical contribution available for further research rather than limiting it to a published article. \ExhibitRef{4D-7}. Yang et al. (2025) used my transformer-based trajectory-prediction work as a methodological comparison and benchmark in later CAV/platoon prediction-control research. \ExhibitRef{4D-6}. My patents concerning intention prediction in symmetric scenarios and reinforcement-learning techniques for network-based transfer learning further show that related parts of this research direction produced implementable autonomous-driving technologies. \ExhibitsRef{4D-8}{4D-9}. The 2025 Southeast Wisconsin Transportation Symposium workshop and Wisconsin DOT-facing panel similarly show that government-facing transportation stakeholders sought my expertise on human-driver--AV interaction, AV deployment evaluation, safety metrics, and post-deployment monitoring. \ExhibitRef{[ID]}.
+
+Taken together, this evidence establishes major significance because it shows field-level reliance on the contribution itself. Contribution 1 did not remain an isolated set of publications. It provided a reusable foundation for understanding, measuring, and predicting human-driver behavior around AVs; it was extended by independent researchers; it was used in government-related and international public-sector analysis; it supported later traffic-flow theory and CAV benchmarking; and it translated into practical AV technology and deployment discussions. This is substantive use, adoption, extension, and reliance, not ordinary publication, citation, or unsupported expert praise.
 
 \subsection{Supporting Expert Letters}
 
-\TODO{Use expert letters only after objective evidence. Reference: Yang Zhou (stochastic model originality, benchmark value, field experiment significance); Jianming Ma (policy/regulatory significance, AV appearance, mixed-traffic data, DOT relevance); coauthor/corresponding author (personal attribution); NSF/project organizer (reliance on industry-grounded expertise, if available); Wisconsin DOT training organizer (government-facing reliance, if available).}
+The expert letters submitted with this response should be read as explanatory corroboration of the objective evidence above, not as a substitute for that evidence. The preceding subsections identify the concrete documentary record: my first-authored stochastic car-following work, controlled human-following-AV field experiment, public dataset, independent extensions by later researchers, government-related and international public-sector use, benchmark use, patent translation, and the Wisconsin DOT-facing symposium materials. The expert letters help explain why those objective documents matter in the field and how they relate to my specific contribution.
+
+Dr. Yang Zhou, an independent transportation-engineering scholar at Texas A\&M University and leader of the Connected Automated Vehicles AI task group, explains the originality of my stochastic car-following contribution and why it was significant to mixed AV-human traffic research. \ExhibitRef{1}. His letter does not replace the independent adoption and extension evidence discussed above. Instead, it helps explain the technical meaning of that evidence: my work supplied a reusable foundation for modeling uncertain human-driver behavior in mixed traffic and became valuable to later researchers because it addressed a problem that deterministic car-following assumptions did not adequately capture.
+
+Dr. Jianming Ma, Director of the Traffic Management Section in the Traffic Safety Division of the Texas Department of Transportation, explains the public-sector significance of my mixed-traffic findings, including the practical relevance of AV appearance, driver trust, and human-driver behavioral adaptation. \ExhibitRef{4}. His letter is important because Contribution 1 addresses a question that transportation agencies must evaluate before AV/CV deployment: how human drivers actually respond when sharing roads with automated vehicles. The agency-related and public-sector documents discussed above provide the objective corroboration; Dr. Ma's letter explains why those documented uses are technically and practically meaningful for transportation planning, safety evaluation, and AV/CV readiness.
+
+The corresponding-author statement further addresses personal attribution. \ExhibitRef{12}. Because some of the relevant works were collaborative, this statement helps confirm that the contribution was personally mine rather than an undifferentiated group achievement. It corroborates the attribution evidence summarized above, including my first-author role, my work on the stochastic modeling and empirical mixed-traffic analysis, and my role in developing and disseminating the field-experiment evidence. This is directly responsive to the RFE's concern that the record should identify my specific personal contribution, not merely the importance of a paper or team project.
+
+Finally, the support letter from Dr. Xiaowei (Tom) Shi, organizer of the 2025 Southeast Wisconsin Transportation Symposium, independently corroborates the practical translation of Contribution 1. \ExhibitRef{[ID]}. Dr. Shi explains that the symposium was designed to support knowledge exchange among public transportation officials, academic researchers, and industry professionals, and that approximately [\_\_\%] of participants were affiliated with the Wisconsin Department of Transportation or related public transportation agencies. He further explains that I was invited to the panel ``Advancing AV/CV Readiness in Wisconsin'' because of the substance of my work on human-driver behavior in mixed AV-human traffic, not simply because I had published articles. This letter connects Contribution 1 to a real public-sector readiness problem: agencies must decide how to evaluate, permit, monitor, and prepare for AV/CV deployment when human drivers and automated vehicles will share the same roads.
+
+Taken together, these letters reinforce---but do not replace---the objective evidence. Dr. Zhou explains the technical originality and benchmark value of the stochastic modeling work; Dr. Ma explains its policy and public-sector significance; the corresponding-author statement confirms my personal role; and Dr. Shi confirms that government-facing transportation stakeholders sought my expertise because my mixed-traffic research was relevant to AV/CV readiness. When viewed alongside the objective adoption, extension, public-sector use, dataset dissemination, and symposium documents already discussed in the preceding subsections, the letters provide additional corroboration that Contribution 1 was original, personally attributable to me, and of major significance beyond ordinary publication.
 
 \section{Contribution 2: Making Autonomous Vehicle Planning Work in Mixed Traffic}
 
@@ -435,7 +450,7 @@ Employer / manager / collaborator confirmation & \TODO{Confirm personal role in 
 \toprule
 \textbf{Category} & \textbf{Evidence and Significance} \\
 \midrule
-\textbf{Framework extension} & \textbf{Li et al. (2022), \ExhibitRef{5D-1}.} Used my first-authored \textit{Review of trajectory optimisation for connected automated vehicles} as part of the technical foundation for later lane-changing trajectory planning research that moved from ego-vehicle ``self-optimum'' planning toward ``local-optimum'' planning that accounts for surrounding vehicles. \\
+\textbf{Framework extension} & \textbf{Li et al. (2022), \ExhibitRef{5D-1}.} Used my first-authored review as a foundation for a later lane-changing method that considered not only the autonomous vehicle's own path, but also its effect on nearby vehicles and traffic flow. \\
 \addlinespace[0.2em]
 \textbf{Public-sector / federal use} & \textbf{Federal Highway Administration project report --- Soleimaniamiri et al. (2021), FHWA-HRT-21-068, \ExhibitRef{5D-2}.} Cited my work \textit{Trajectory Optimization for a Connected Automated Traffic Stream: Comparison Between an Exact Model and Fast Heuristics} in a federal CARMA proof-of-concept report involving trajectory smoothing, trajectory planning, trajectory control, signal optimization, and dynamic lane assignment. \\
 \addlinespace[0.2em]
@@ -450,11 +465,11 @@ Employer / manager / collaborator confirmation & \TODO{Confirm personal role in 
 
 \subsubsection{Later researchers used my trajectory-optimization framework to move AV planning beyond ego-only motion optimization.}
 
-My trajectory-planning contribution addressed a practical gap in autonomous-vehicle research: many planning methods optimized only the subject vehicle's own motion, without sufficiently considering how the planned trajectory affects surrounding vehicles, human-driver interaction, or system-level traffic performance. My first-authored review, \textit{Review of trajectory optimisation for connected automated vehicles}, organized this emerging field and clarified that CAV trajectory planning should be evaluated across safety, efficiency, fuel and energy use, comfort, computation, traffic scenario, communication setting, and implementation feasibility.
+My trajectory-planning contribution addressed a practical problem in autonomous driving: an AV should not only complete its own maneuver, but should do so in a way that does not unnecessarily disrupt nearby vehicles or overall traffic flow. My first-authored review, \textit{Review of trajectory optimisation for connected automated vehicles}, helped organize this area of research by explaining how CAV trajectories can be evaluated for safety, efficiency, energy use, comfort, and practical implementation.
 
-Li et al. (2022) later used this research direction in their work on automatic lane-changing trajectory planning from ``self-optimum'' to ``local-optimum.'' That later work addressed a problem closely aligned with the gap I identified: an autonomous vehicle should not merely complete its own maneuver, but should plan in a way that reduces excessive impact on surrounding vehicles. Their study proposed a lane-changing trajectory-planning approach that considered the benefits of both the subject vehicle and neighboring vehicles.
+Li et al. (2022) later relied on that work in a study on automatic lane-changing trajectory planning. In the highlighted passage, they cited my review to explain that trajectory smoothing can reduce traffic oscillation. They then built on that foundation by proposing a lane-changing method that considered both the AV's own benefit and the effect on surrounding vehicles.
 
-This is significant because it shows that my first-authored trajectory-optimization review did not remain a general publication summary. It helped define a planning/control framework that later researchers used when developing more interaction-aware trajectory-planning methods. The later work reflects the same shift that my contribution advanced: from isolated vehicle motion to mixed-traffic trajectory planning where vehicle interaction, local traffic impact, and surrounding-driver response matter.
+This is significant because it shows independent technical use of my work. Li et al. did not merely cite my review as background; they used it to frame the problem and justify a next-step method for more practical, traffic-aware AV lane changing. I therefore use Li et al. (2022) as evidence of technical reliance and extension, not as a claim of government implementation or commercial adoption.
 
 \subsubsection{The FHWA CARMA report used my connected-traffic-stream trajectory-optimization work in a federal cooperative-automation context.}
 
@@ -526,7 +541,7 @@ Florida / CUTR & Claimed use requires corroboration & \TODO{AMS / CUTR report or
 Texas / TxDOT & Policy impact needs objective support & \TODO{TxDOT-related document or technical evidence, plus expert letter.} & \TODO{Traffic operations, speed management, mixed-traffic work.} & Contribution 1 or 2 \\
 Virginia / VTRC & Claimed use needs support & \TODO{VTRC report or citation-context excerpt.} & \TODO{AV behavior evidence, car-following model, safety analysis.} & Contribution 1 \\
 European Commission / JRC & International relevance needs proof & \TODO{EC / JRC report or paper excerpt.} & \TODO{Human-driver heterogeneity or AV behavior findings.} & Contribution 1 \\
-Wisconsin DOT-facing training & Government-facing use should be documented & \TODO{Agenda, organizer letter, slides, speaker list.} & \TODO{AV modeling, simulation, mixed-traffic behavior, deployment expertise.} & Contribution 1 / final merits \\
+2025 Southeast Wisconsin Transportation Symposium workshop / Wisconsin DOT-facing panel & Government-facing use should be documented & \TODO{Workshop agenda, panel description, organizer support letter, audience composition, speaker list or program.} & \TODO{Human-driver--AV interaction evidence, mixed-traffic field data, stochastic human-driver modeling, AV deployment evaluation, safety and performance metrics.} & Contribution 1 / final merits \\
 Leidos / FHWA-related projects & Industry/government implementation needs objective proof & \TODO{Project report, public document, CV/project role evidence, or letter tied to report.} & \TODO{Trajectory benchmark, field data, simulation method.} & Contribution 2 \\
 Pony.ai / other companies & Company use needs proof & \TODO{Company paper, technical document, citation-context excerpt.} & \TODO{Mixed-traffic control framework, field experiment protocol, dataset.} & Contribution 1 or 2 \\
 \bottomrule
@@ -546,7 +561,7 @@ The evidence submitted above establishes a third independent criterion---origina
 
 \begin{enumerate}
   \item \textbf{Contribution 1:} I advanced how the field models human-driver behavior in mixed AV-human traffic, through a generalized stochastic car-following framework, a controlled field experiment, a mixed-traffic behavioral dataset, and a finding about AV appearance and behavioral adaptation. Independent researchers extended this work, government-related simulation projects used it for calibration, and policy researchers used it in regulatory analysis.
-  \item \textbf{Contribution 2:} I advanced how AVs and CAVs can plan and control movement under mixed-traffic disruptions and deployment constraints, through trajectory optimization, proactive longitudinal control, reinforcement-learning methods, and patented AV prediction/planning/learning technologies. Government-related and industry-facing projects relied on these methods as benchmarks, and multi-stakeholder panels sought my expertise for deployment and safety discussions.
+  \item \textbf{Contribution 2:} I advanced how AVs and CAVs can plan and control movement under mixed-traffic disruptions and deployment constraints, through trajectory optimization, proactive longitudinal control, reinforcement-learning methods, and patented AV prediction/planning/learning technologies. Government-related and industry-facing projects relied on these methods as benchmarks for deployment-oriented AV/CAV research, and separate multi-stakeholder panels sought my expertise on AV deployment, safety validation, and practical implementation constraints.
 \end{enumerate}
 
 \subsection{My Recognition Is Sustained and Cross-Sector}
@@ -557,9 +572,7 @@ My record shows sustained recognition across academia, industry, and government:
   \item Independent academic use of my models, data, and methods.
   \item Government-facing use in simulation, training, and policy analysis.
   \item Industry-facing use through benchmarks, patents, and engineering projects.
-  \item Multi-stakeholder panel participation as the only AV industry practitioner.
-  \item NSF / academic project support showing reliance on my industry-grounded expertise.
-  \item Wisconsin DOT-facing training showing government-seeking of my technical knowledge.
+  \item Multi-stakeholder panel participation showing that government, academic, and industry audiences sought my AV deployment expertise.
   \item Advisory and reviewing roles.
   \item Lead Autonomy Engineer position.
 \end{itemize}
