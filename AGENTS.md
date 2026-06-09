@@ -110,6 +110,10 @@ Expert letters are used to **explain** the objective evidence, not to **replace*
 
 Use "I," "my," and "me." The response is written in the beneficiary's voice.
 
+### Paragraph Edits Must Blend Into the Surrounding Section
+
+When you add or revise a paragraph, read the enclosing section or subsection carefully first. Understand the paragraph's **role in the logical flow**: is it introducing a claim? providing evidence? bridging two ideas? rebutting an objection? The revised paragraph must continue that role naturally. Do not write a paragraph that reads like it is answering a specific question I asked you in a sidebar conversation. If it reads like a standalone Q&A answer, it will feel disconnected and confusing to the USCIS officer reading the full letter. Instead, the paragraph should pick up the thread from what came before it and hand off smoothly to what follows.
+
 ## Key Files
 
 | File | Purpose |
