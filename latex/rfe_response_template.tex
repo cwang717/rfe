@@ -110,8 +110,8 @@ Accordingly, this response focuses on the criterion for \textbf{original contrib
 The evidence is organized around two field-level technical contributions:
 
 \begin{enumerate}
-\item \textbf{Stochastic and empirical modeling of human-driver behavior in mixed AV-human traffic}; and
-\item \textbf{Optimization- and learning-based trajectory planning/control methods for mixed traffic under human-driver disruption and real-world deployment constraints}.
+\item \textbf{Human-driver behavior around autonomous vehicles in mixed traffic}; and
+\item \textbf{Autonomous-vehicle planning and control for real-world mixed traffic}.
 \end{enumerate}
 
 For each contribution, I identify the problem that existed before my work, explain what I personally created and why it was original, and provide objective evidence of independent use, adoption, extension, benchmarking, or reliance. I also explain how the same evidence supports the final merits determination when considered together with the two criteria that USCIS has already accepted.
@@ -130,8 +130,8 @@ USCIS has already found that the record satisfies the judging criterion and the 
 The evidence below is organized around two field-level technical contributions:
 
 \begin{enumerate}
-\item \textbf{Stochastic and empirical modeling of human-driver behavior in mixed AV-human traffic}; and
-\item \textbf{Optimization- and learning-based trajectory planning/control methods for mixed traffic under human-driver disruption and real-world deployment constraints}.
+\item \textbf{Human-driver behavior around autonomous vehicles in mixed traffic}; and
+\item \textbf{Autonomous-vehicle planning and control for real-world mixed traffic}.
 \end{enumerate}
 
 These two contributions form a coherent technical arc. First, I advanced how the field understands, models, and predicts uncertain human-driver behavior in mixed autonomous-vehicle and human-driven traffic. Second, I advanced how autonomous and connected vehicles can plan and control their movement in that mixed traffic under real-world interaction, safety, infrastructure, and deployment constraints.
@@ -157,25 +157,47 @@ The original-contributions evidence is also relevant to the final merits determi
 
 Accordingly, the final merits section considers the full record together: the two accepted regulatory criteria, the objective evidence of original contributions of major significance, the independent use and extension of my work, the translation of my research into patented autonomous-driving technologies, and the cross-sector recognition of my expertise. Viewed as a whole, this evidence supports a favorable final merits determination.
 
-\section{Roadmap of the Original Contributions}
+\section{Roadmap of the Original Contributions and Evidence of Major Significance}
 
-These two contributions form a coherent technical arc. First, I advanced how the field understands and models uncertain human-driver behavior in mixed AV-human traffic. Second, I advanced how AVs and CAVs can plan and control their movement in that mixed traffic. The cross-sector evidence does not stand alone as a separate contribution; instead, it shows that my technical contributions were valued, relied upon, and translated beyond ordinary publication.
+This response presents two original technical contributions. They are not claimed as publications themselves. The publications disclosed the work, but the claimed contributions are the underlying models, datasets, experiments, methods, empirical findings, benchmarks, and deployable technologies that others later used, extended, benchmarked, or relied upon.
 
-\subsection{Contribution 1: Stochastic and Empirical Modeling of Human-Driver Behavior in Mixed AV-Human Traffic}
+This section provides a concise roadmap of the evidence. The detailed factual record, attribution evidence, third-party use, and explanation of major significance appear in the contribution-specific sections below.
 
-\textbf{What I created.} I advanced understanding of how human drivers behave around autonomous vehicles through four connected lines of work: (1)~a generalized stochastic car-following framework that models uncertain and variable human following behavior rather than assuming deterministic rules; (2)~a controlled field experiment providing real-world evidence on how human drivers follow an autonomous vehicle, including the finding that driver response depends on whether the AV is recognizable; (3)~an interaction-aware trajectory prediction approach that identifies which surrounding vehicles matter most for predicting a vehicle's future movement in complex traffic; and (4)~domain-adaptive prediction methods that allow models trained in one driving environment to be adapted efficiently when data in a new environment are limited.
+\begingroup
+\small
+\setstretch{1.08}
+\renewcommand{\arraystretch}{1.2}
 
-\textbf{Objective evidence of independent use.} Royal HaskoningDHV and TU Delft researchers extended my controlled human-following-AV experiment direction into new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. FHWA-sponsored researchers, including a CUTR-affiliated co-author (Huang et al., 2021), used my mixed-traffic field-experiment evidence in FHWA-funded modeling and simulation work. European Commission / Joint Research Centre researchers (Makridis et al., 2022) used my empirical findings on human-driver heterogeneity to support stochastic traffic-simulation analysis. Mohammadian (2021) used my human-following-AV findings to motivate a behavioral-continuum framework for mixed-traffic dynamics and safety. Ngoduy (2021) built upon my stochastic car-following and stability-analysis framework in later stochastic traffic-flow theory. Yang et al. (2025) used my transformer-based trajectory prediction work as a methodological benchmark in CAV/platoon prediction-control research. I released the underlying field-experiment data as a public GitHub dataset. Two U.S. patents---on intention prediction in symmetric scenarios and on RL-based transfer learning for autonomous-driving prediction---further corroborate that this work produced implementable technology.
+\begin{tabularx}{\textwidth}{@{}p{0.23\textwidth}Y@{}}
+\toprule
+\multicolumn{2}{@{}l}{\textbf{Contribution 1: Human-Driver Behavior Around Autonomous Vehicles in Mixed Traffic}} \\
+\midrule
+\textbf{What I created} &
+I created a generalized stochastic car-following framework, a controlled human-vehicle-following-autonomous-vehicle field experiment, a public mixed-traffic behavioral dataset, and interaction-aware and domain-adaptive prediction methods for understanding how human drivers behave around autonomous vehicles. \\
+\textbf{How others used it} &
+Independent researchers and public-sector transportation researchers used, extended, or relied upon this work as an experimental foundation, behavioral distinction, simulation input, theory extension, dataset resource, or prediction benchmark. The evidence includes later use by VTRC-affiliated researchers, FHWA-sponsored researchers, European Commission / JRC researchers, international academic groups, and subsequent CAV prediction-control researchers. \\
+\textbf{Why it matters} &
+This contribution gave the field a more realistic and evidence-based foundation for studying mixed AV-human traffic: human drivers are uncertain, their behavior around AVs can change based on AV recognizability and trust, and their future movements must be predicted under complex interaction and limited-data conditions. \\
+\bottomrule
+\end{tabularx}
 
-\textbf{Cross-sector translation.} At the 2025 Southeast Wisconsin Transportation Symposium---cohosted by the University of Wisconsin-Milwaukee and the Wisconsin Department of Transportation---I served on a Wisconsin DOT-facing workshop panel discussing how government agencies should evaluate, permit, and monitor AV deployment, directly applying my human-driver--AV interaction expertise to public-sector deployment readiness. Separately, I delivered an invited seminar and graduate-student roundtable at the University of Georgia Future Mobility Living Lab, where an independent academic institution sought my expertise to train the next generation of transportation researchers on human-driver behavior and AV deployment.
+\vspace{0.4em}
 
-\subsection{Contribution 2: Making Autonomous Vehicle Planning Work in Mixed Traffic}
+\begin{tabularx}{\textwidth}{@{}p{0.23\textwidth}Y@{}}
+\toprule
+\multicolumn{2}{@{}l}{\textbf{Contribution 2: Autonomous-Vehicle Planning and Control for Real-World Mixed Traffic}} \\
+\midrule
+\textbf{What I created} &
+I created trajectory-optimization, learning-based motion-planning, structure-specific cooperative-control, and proactive longitudinal-control methods to help autonomous and connected vehicles operate safely and efficiently around human drivers at road segments, intersections, and roundabouts. \\
+\textbf{How others used it} &
+Federal, national-laboratory, and international academic researchers used, extended, benchmarked, or sought this work for cooperative automation, dynamic lane assignment, roundabout platooning, learning-based CAV control, and deployment-oriented AV research. The evidence includes the FHWA CARMA proof-of-concept report, Oak Ridge National Laboratory research, international roundabout-control work, later AV lane-changing research, and federally related proposal invitations. \\
+\textbf{Why it matters} &
+This contribution helped move AV planning and control research from isolated ego-vehicle motion toward deployable mixed-traffic operation, where AVs must account for human-driver disruption, roadway-structure constraints, infrastructure coordination, safety, efficiency, energy performance, and real-world implementation limits. \\
+\bottomrule
+\end{tabularx}
+\endgroup
 
-\textbf{What I created.} I advanced how autonomous and connected vehicles can plan and control their movement in mixed traffic through four connected lines of work: (1)~a trajectory optimization framework that systematically connects safety, efficiency, energy use, and passenger comfort tradeoffs---moving AV trajectory evaluation beyond ego-only motion optimization toward mixed-traffic-aware planning; (2)~proactive longitudinal control methods that allow CAVs to manage or prevent disruptive lane changes by human-driven vehicles before disruption fully develops, rather than merely reacting afterward; (3)~reinforcement-learning-based motion planning that operates under real-world deployment constraints such as variable sensor-input size and missing data, which had kept most academic RL controllers from being useful outside research settings; and (4)~structure-specific interaction methods adapted to signalized intersections and roundabouts, where vehicle interaction, traffic signals, and roadway geometry jointly determine safety and efficiency.
-
-\textbf{Objective evidence of independent use.} The FHWA CARMA Proof-of-Concept report (Soleimaniamiri et al., 2021, FHWA-HRT-21-068) relied on my trajectory-optimization framework as the technical basis for a federal cooperative-automation Dynamic Lane Assignment use case at signalized corridors---connecting vehicle-level trajectory planning with infrastructure-level traffic management. Oak Ridge National Laboratory researchers (Zhou et al., 2024) used my proactive longitudinal-control framework as a representative DRL-based car-following method and extended it to analyze what training conditions are needed for learning-based CAV controllers to generalize reliably across traffic conditions. Nanyang Technological University researchers (Zhuo et al., 2023) used my roundabout-specific CAV operational framework and extended it to evaluate how different CAV platoon configurations affect roundabout performance in mixed traffic. Li et al. (2022) built upon my first-authored trajectory-optimization review to develop lane-changing methods that account for surrounding-vehicle impact. A U.S. patent on hierarchical vehicle action prediction corroborates that this research produced implementable autonomous-driving technology.
-
-\textbf{Cross-sector translation.} Six independent academic and national-laboratory teams invited me as an industry-side expert for federally related AV research proposals spanning DOE VTO, NSF, FHWA, USDoT, and CCAT funding contexts---each asking me to assess whether proposed AV planning, control, prediction, and deployment concepts could translate into practical autonomous-vehicle operations. At the 5th Annual E-Mobility Summit, I served as the sole autonomous-vehicle domain expert on the Autonomous Mobility panel, where a multidisciplinary audience spanning government, industry, academia, and economic development sought my expertise on what it takes to validate, deploy, and scale autonomous mobility in real-world environments.
+The detailed sections below follow the same logic for each contribution: first, what problem existed before my work; second, what I personally created; third, what objective evidence shows independent use, reliance, extension, benchmarking, or translation; and fourth, why that evidence establishes major significance in the field. The cross-sector evidence does not stand alone as a separate contribution. Instead, it shows that my technical contributions were valued, relied upon, and translated beyond ordinary publication.
 
 \section{Clarification: Publications Are Not the Contributions Themselves}
 
@@ -185,9 +207,9 @@ I respectfully do not claim that my publications alone establish original contri
 
 The proof of major significance comes from the independent use, practical reliance, and cross-sector influence of the underlying work---not from publication count, citation count, or support letters standing alone.
 
-\section{Contribution 1: Stochastic and Empirical Modeling of Human-Driver Behavior in Mixed AV-Human Traffic}
+\section{Contribution 1: Human-Driver Behavior Around Autonomous Vehicles in Mixed Traffic}
 
-\textbf{Technical subtitle:} Generalized stochastic car-following framework, controlled HV-following-AV field experiment, mixed-traffic behavioral dataset, and AV appearance / behavioral adaptation finding.
+\textbf{Technical scope:} Generalized stochastic car-following framework, controlled HV-following-AV field experiment, mixed-traffic behavioral dataset, and AV appearance / behavioral adaptation finding.
 
 \subsection{Problem Before My Work}
 
@@ -372,7 +394,7 @@ The expert letters submitted with this response should be read as explanatory co
 
 Taken together, these letters reinforce---but do not replace---the objective evidence. Dr. Zhou explains the technical originality and field-level impact of the stochastic car-following work; Dr. Ma explains its policy and public-sector significance; and the event-organizer letters confirm that my expertise was independently sought by government and academic audiences. When viewed alongside the objective adoption, extension, public-sector use, dataset dissemination, and cross-sector materials already discussed above, the letters provide additional corroboration that Contribution 1 was original, personally attributable to me, and of major significance beyond ordinary publication.
 
-\section{Contribution 2: Making Autonomous Vehicle Planning Work in Mixed Traffic}
+\section{Contribution 2: Autonomous-Vehicle Planning and Control for Real-World Mixed Traffic}
 
 \textbf{Technical scope:} Trajectory optimization, learning-based motion planning, and proactive vehicle control methods that help connected and autonomous vehicles operate safely and efficiently around human drivers at road segments, intersections, and roundabouts.
 

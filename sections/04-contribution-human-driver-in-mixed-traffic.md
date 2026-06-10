@@ -1,4 +1,4 @@
-# Section 4. Contribution 1: Modeling and Predicting Human Driving Behavior Around Autonomous Vehicles in Mixed Traffic
+# Section 4. Contribution 1: Human-Driver Behavior Around Autonomous Vehicles in Mixed Traffic
 
 ## 4.A. Problem Before My Work
 

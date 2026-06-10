@@ -1,4 +1,4 @@
-# Section 5. Contribution 2: Making Autonomous Vehicle Planning Work in Mixed Traffic
+# Section 5. Contribution 2: Autonomous-Vehicle Planning and Control for Real-World Mixed Traffic
 
 ## Technical Scope
 
