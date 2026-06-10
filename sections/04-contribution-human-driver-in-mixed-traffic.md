@@ -48,15 +48,15 @@ This subsection provides objective evidence that later independent users did not
 
 | Category | Evidence and Significance |
 | --- | --- |
-| Experiment adoption | **Royal HaskoningDHV / TU Delft — Soni et al. (2022), Exhibit 4D-1.** Extended my controlled human-following-AV experiment direction to new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. |
-| Public-sector use | **FHWA project report — Huang et al. (2021), including Qianwen Li from CUTR, Florida, Exhibit 4D-2.** Used my mixed-traffic field-experiment evidence in government-related AMS / simulation work for mixed traffic and automated-driving systems. |
-| Public-sector use | **European Commission / Joint Research Centre — Makridis et al. (2022), Exhibit 4D-3.** Used my empirical findings on human-driver heterogeneity to support international public-sector analysis of stochastic traffic simulation. |
-| Theory extension | **Mohammadian (2021), Queensland University of Technology, Exhibit 4D-4.** Used my human-following-AV findings to motivate a behavioral continuum framework for mixed-traffic dynamics and safety. |
-| Theory extension | **Ngoduy (2021), Monash University, Australia, Exhibit 4D-5.** Built upon my stochastic car-following and stability-analysis framework in later stochastic traffic-flow theory. |
-| Benchmarking | **Yang et al. (2025), Exhibit 4D-6.** Used my transformer-based vehicle trajectory prediction work as a methodological comparison and future research benchmark in CAV/platoon prediction-control research. |
-| Dataset use | **Public GitHub dataset: Field-Experiment-Data, Exhibit 4D-7.** Made the underlying mixed-traffic experiment reproducible and usable by later researchers. |
-| Patent translation | **U.S. Patent No. [Patent 1] — Intention Prediction in Symmetric Scenarios, Exhibit 4D-8.** Shows that my autonomous-driving prediction work became a protected technical invention, not merely an academic article. |
-| Patent translation | **U.S. Patent No. [Patent 3] — Reinforcement Learning Techniques for Network-Based Transfer Learning, Exhibit 4D-9.** Shows technical implementation of my model-transfer work for autonomous-driving prediction systems. |
+| Experiment adoption | **Royal HaskoningDHV / TU Delft — Soni et al. (2022), Exhibit 10C-2, #7.** Extended my controlled human-following-AV experiment direction to new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. |
+| Public-sector use | **FHWA project report — Huang et al. (2021), including Qianwen Li from CUTR, Florida, Exhibit 10C-2, #1.** Used my mixed-traffic field-experiment evidence in government-related AMS / simulation work for mixed traffic and automated-driving systems. |
+| Public-sector use | **European Commission / Joint Research Centre — Makridis et al. (2022), Exhibit 10C-2, #5.** Used my empirical findings on human-driver heterogeneity to support international public-sector analysis of stochastic traffic simulation. |
+| Theory extension | **Mohammadian (2021), Queensland University of Technology, Exhibit 10C-2, #8.** Used my human-following-AV findings to motivate a behavioral continuum framework for mixed-traffic dynamics and safety. |
+| Theory extension | **Ngoduy (2021), Monash University, Australia, Exhibit R1-1.** Built upon my stochastic car-following and stability-analysis framework in later stochastic traffic-flow theory. |
+| Benchmarking | **Yang et al. (2025), Exhibit R1-2.** Used my transformer-based vehicle trajectory prediction work as a methodological comparison and future research benchmark in CAV/platoon prediction-control research. |
+| Dataset use | **Public GitHub dataset: Field-Experiment-Data, Exhibit R1-5.** Made the underlying mixed-traffic experiment reproducible and usable by later researchers. |
+| Patent translation | **U.S. Patent No. [Patent 1] — Intention Prediction in Symmetric Scenarios, Exhibit R4-1.** Shows that my autonomous-driving prediction work became a protected technical invention, not merely an academic article. |
+| Patent translation | **U.S. Patent No. [Patent 3] — Reinforcement Learning Techniques for Network-Based Transfer Learning, Exhibit R4-3.** Shows technical implementation of my model-transfer work for autonomous-driving prediction systems. |
 
 ### 4.D.1. Independent researchers extended my field-experiment contribution into new human-driver/AV interaction studies.
 
