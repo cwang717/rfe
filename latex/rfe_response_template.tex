@@ -409,47 +409,15 @@ For clarity, the key terms are as follows:
 
 My contribution is not the broad field of autonomous vehicle planning and control. My contribution is narrower and more specific: \textbf{optimization- and learning-based trajectory planning/control for mixed traffic under human-driver interaction, roadway-structure constraints, and proactive disruption management.}
 
-I created and helped develop a connected body of work that moved AV/CAV trajectory planning and control from idealized vehicle motion toward deployable mixed-traffic interaction methods. This contribution had three parts.
+I created and helped develop a connected body of work that moved AV/CAV trajectory planning and control from idealized vehicle motion toward deployable mixed-traffic interaction methods. I advanced this contribution in three connected ways.
 
-\subsubsection{I helped create a systematic framework connecting trajectory optimization, learning-based planning, and mixed-traffic human--AV interaction.}
+First, I helped create a systematic framework connecting trajectory optimization, learning-based planning, and mixed-traffic human--AV interaction. In my first-authored review paper, \textit{Review of trajectory optimisation for connected automated vehicles}, I organized the emerging field of CAV trajectory optimization and clarified the practical tradeoffs among safety, efficiency, fuel/energy use, comfort, computation, and implementation feasibility. In \textit{Trajectory optimization for a connected automated traffic stream: Comparison between an exact model and fast heuristics}, I helped address a practical implementation issue: exact optimization can produce high-quality trajectories but may be computationally expensive, while fast heuristic methods are more practical but must be evaluated carefully. This work helped clarify how trajectory optimization could become both technically reliable and computationally feasible for connected automated traffic streams. In \textit{Review of learning-based longitudinal motion planning for autonomous vehicles: research gaps between self-driving and traffic congestion}, I further connected trajectory planning with learning-based AV decision-making and traffic-flow impacts. This work identified a key gap between self-driving research, which often focuses on the ego vehicle's motion, and transportation-engineering research, which evaluates how vehicle decisions affect congestion, surrounding vehicles, and system-level traffic performance. Together, these works helped establish a systematic planning/control perspective for mixed traffic: an AV/CAV trajectory should not be evaluated only by whether the automated vehicle completes its own maneuver, but also by how it interacts with human drivers and how it affects traffic safety, smoothness, efficiency, and energy performance. This was original because it connected research streams that were often treated separately. I helped bridge optimization-based CAV trajectory control, learning-based AV motion planning, and traffic-flow-aware evaluation into a more deployable mixed-traffic framework.
 
-In my first-authored review paper, \textit{Review of trajectory optimisation for connected automated vehicles}, I organized the emerging field of CAV trajectory optimization and clarified the practical tradeoffs among safety, efficiency, fuel/energy use, comfort, computation, and implementation feasibility.
+Second, I helped develop trajectory planning/control methods for structure-specific interaction environments, including signalized intersections and roundabouts. My work addressed the fact that mixed-traffic interaction is not the same across all roadway environments. Certain roadway structures create special interaction problems that require dedicated planning/control methods. In \textit{A trajectory smoothing method at signalized intersection based on individualized variable speed limits with location optimization}, I helped develop a method to smooth vehicle trajectories through signalized intersections. The method addressed not only what speed guidance should be given, but also where individualized variable speed limit control should be located. This helped reduce unnecessary braking, acceleration, delay, and fuel consumption in an infrastructure-constrained environment. In \textit{Cooperative roundabout control strategy for connected and autonomous vehicles}, I helped extend cooperative control to roundabouts, where vehicles must coordinate entry, circulation, yielding, and timing. In this setting, safe and efficient operation depends on managing interactions among multiple vehicles under geometric constraints. These works were original because they did not assume that a generic trajectory-control method could be directly transferred to all road environments. Instead, they addressed how planning/control should be adapted to specific roadway structures where vehicle interaction, infrastructure, and traffic geometry jointly determine performance.
 
-In \textit{Trajectory optimization for a connected automated traffic stream: Comparison between an exact model and fast heuristics}, I helped address a practical implementation issue: exact optimization can produce high-quality trajectories but may be computationally expensive, while fast heuristic methods are more practical but must be evaluated carefully. This work helped clarify how trajectory optimization could become both technically reliable and computationally feasible for connected automated traffic streams.
+Third, I helped develop proactive control methods that use CAV behavior to manage or prevent disruptive human-driver behavior. In \textit{Proactive longitudinal control to manage disruptive lane changes of human-driven vehicles in mixed-flow traffic}, \textit{Proactive longitudinal control to preclude disruptive lane changes of human-driven vehicles in mixed-flow traffic}, and \textit{Proactive longitudinal control of connected and autonomous vehicles with lane-change assistance for human-driven vehicles}, I helped develop methods for connected and automated vehicles to proactively adjust their longitudinal motion around lane-changing human-driven vehicles. The original idea was that a CAV should not simply react after a human driver cuts in or creates a traffic disturbance. Instead, the CAV can act before the disruption fully develops. It can adjust its speed, create safer gaps, assist a human-driven vehicle's lane change when appropriate, or reduce the likelihood that a disruptive lane change will damage traffic flow. This reframed the role of the CAV in mixed traffic. The vehicle is not merely an automated agent optimizing its own path. It is also a controllable participant in a human--machine traffic system. By choosing its own longitudinal behavior, the CAV can influence human-driver behavior and improve the overall traffic outcome.
 
-In \textit{Review of learning-based longitudinal motion planning for autonomous vehicles: research gaps between self-driving and traffic congestion}, I further connected trajectory planning with learning-based AV decision-making and traffic-flow impacts. This work identified a key gap between self-driving research, which often focuses on the ego vehicle's motion, and transportation-engineering research, which evaluates how vehicle decisions affect congestion, surrounding vehicles, and system-level traffic performance.
-
-Together, these works helped establish a systematic planning/control perspective for mixed traffic: an AV/CAV trajectory should not be evaluated only by whether the automated vehicle completes its own maneuver, but also by how it interacts with human drivers and how it affects traffic safety, smoothness, efficiency, and energy performance.
-
-This was original because it connected research streams that were often treated separately. I helped bridge optimization-based CAV trajectory control, learning-based AV motion planning, and traffic-flow-aware evaluation into a more deployable mixed-traffic framework.
-
-\subsubsection{I helped develop trajectory planning/control methods for structure-specific interaction environments, including signalized intersections and roundabouts.}
-
-My work also addressed the fact that mixed-traffic interaction is not the same across all roadway environments. Certain roadway structures create special interaction problems that require dedicated planning/control methods.
-
-In \textit{A trajectory smoothing method at signalized intersection based on individualized variable speed limits with location optimization}, I helped develop a method to smooth vehicle trajectories through signalized intersections. The method addressed not only what speed guidance should be given, but also where individualized variable speed limit control should be located. This helped reduce unnecessary braking, acceleration, delay, and fuel consumption in an infrastructure-constrained environment.
-
-In \textit{Cooperative roundabout control strategy for connected and autonomous vehicles}, I helped extend cooperative control to roundabouts, where vehicles must coordinate entry, circulation, yielding, and timing. In this setting, safe and efficient operation depends on managing interactions among multiple vehicles under geometric constraints.
-
-These works were original because they did not assume that a generic trajectory-control method could be directly transferred to all road environments. Instead, they addressed how planning/control should be adapted to specific roadway structures where vehicle interaction, infrastructure, and traffic geometry jointly determine performance.
-
-\subsubsection{I helped develop proactive control methods that use CAV behavior to manage or prevent disruptive human-driver behavior.}
-
-A central part of my contribution was addressing human-driver disruption directly.
-
-In \textit{Proactive longitudinal control to manage disruptive lane changes of human-driven vehicles in mixed-flow traffic}, \textit{Proactive longitudinal control to preclude disruptive lane changes of human-driven vehicles in mixed-flow traffic}, and \textit{Proactive longitudinal control of connected and autonomous vehicles with lane-change assistance for human-driven vehicles}, I helped develop methods for connected and automated vehicles to proactively adjust their longitudinal motion around lane-changing human-driven vehicles.
-
-The original idea was that a CAV should not simply react after a human driver cuts in or creates a traffic disturbance. Instead, the CAV can act before the disruption fully develops. It can adjust its speed, create safer gaps, assist a human-driven vehicle's lane change when appropriate, or reduce the likelihood that a disruptive lane change will damage traffic flow.
-
-This reframed the role of the CAV in mixed traffic. The vehicle is not merely an automated agent optimizing its own path. It is also a controllable participant in a human--machine traffic system. By choosing its own longitudinal behavior, the CAV can influence human-driver behavior and improve the overall traffic outcome.
-
-\subsubsection{Summary of Originality}
-
-Taken together, these works created a focused contribution: \textbf{Practical Planning and Control for Autonomous Vehicles in Mixed Traffic.}
-
-The originality was not that I worked on autonomous vehicle planning/control generally. The originality was that I addressed the practical mixed-traffic version of the problem: how automated and connected vehicles can plan and control trajectories when human drivers interact with them, when intersections and roundabouts create special interaction constraints, and when CAVs can proactively influence human-driver behavior to improve traffic safety, smoothness, efficiency, and energy/fuel performance.
-
-The papers are the vehicles through which the contribution was reported. The contribution itself is the set of methods, frameworks, and technical findings that helped make AV/CAV trajectory planning and control more realistic and deployable for mixed traffic.
+Taken together, these works created a focused contribution: \textbf{Practical Planning and Control for Autonomous Vehicles in Mixed Traffic.} The originality was not that I worked on autonomous vehicle planning/control generally. The originality was that I addressed the practical mixed-traffic version of the problem: how automated and connected vehicles can plan and control trajectories when human drivers interact with them, when intersections and roundabouts create special interaction constraints, and when CAVs can proactively influence human-driver behavior to improve traffic safety, smoothness, efficiency, and energy/fuel performance. The papers are the vehicles through which the contribution was reported. The contribution itself is the set of methods, frameworks, and technical findings that helped make AV/CAV trajectory planning and control more realistic and deployable for mixed traffic.
 
 \subsection{My Personal Role}
 
@@ -667,43 +635,91 @@ In the original petition, agency-related claims relied primarily on support lett
 
 This evidence directly addresses the officer's concern. The claims in this response are limited to what the objective documentary evidence supports. No entity is claimed to have formally ``adopted'' my work at the agency level unless the record contains specific documentary proof of such adoption. The evidence above shows that my contributions reached federal research, international public-sector research, and state-level expert recognition---each at the level the documentary record supports.
 
-\section{Final Merits}
+\section{Final Merits Determination}
 
-The totality of the evidence demonstrates sustained national and international acclaim and shows that I am among the small percentage who have risen to the very top of the field.
+The final merits determination asks whether the totality of the evidence demonstrates that I have sustained national or international acclaim and that my achievements place me among the small percentage who have risen to the very top of the field. I respectfully submit that this standard is satisfied.
 
-\subsection{USCIS Has Already Accepted Two Independent Criteria}
+USCIS has already accepted that I satisfy the authorship and judging criteria. The evidence submitted in this response further establishes that I satisfy the criterion for original scientific contributions of major significance. More importantly, the evidence under these criteria does not stand in isolation. Viewed together, it shows a coherent record of top-of-field impact: I created original theory, empirical data, and autonomous-driving control methods; independent researchers, public-sector agencies, and industry practitioners relied on those outputs; and the field has repeatedly entrusted me to evaluate, advise, and shape future research and deployment in autonomous driving.
 
-USCIS has accepted that I satisfy the authorship criterion and the judging criterion. These two criteria, standing alone, already provide independent evidence of my standing in the field.
+My record is therefore not merely the record of a researcher who published papers and reviewed manuscripts. It is the record of a transportation-engineering expert whose work has become part of the scientific and practical foundation for understanding and managing mixed traffic involving human-driven and autonomous vehicles.
 
-\subsection{The Original-Contributions Evidence Shows Field-Level Impact}
+\subsection{My Work Addressed a Central Problem in Transportation Engineering}
 
-The evidence submitted above establishes a third independent criterion---original contributions of major significance---by showing that my two technical contributions were not merely published but were used, adopted, extended, benchmarked, and relied upon by independent researchers, government-facing professionals, and industry practitioners:
+A defining challenge in modern transportation engineering is how autonomous vehicles should operate safely and efficiently in mixed traffic with human drivers. This problem is not only academic. It affects federal research programs, state transportation agencies, commercial autonomous-vehicle developers, simulation-tool developers, and public safety evaluation.
 
-\begin{enumerate}
-  \item \textbf{Contribution 1:} I advanced how the field models human-driver behavior in mixed AV-human traffic, through a generalized stochastic car-following framework, a controlled field experiment, a mixed-traffic behavioral dataset, and a finding about AV appearance and behavioral adaptation. Independent researchers extended this work, government-related simulation projects used it for calibration, and policy researchers used it in regulatory analysis.
-  \item \textbf{Contribution 2:} I advanced how AVs and CAVs can plan and control movement under mixed-traffic disruptions and deployment constraints, through trajectory optimization, proactive longitudinal control, reinforcement-learning methods, and patented AV prediction/planning/learning technologies. Government-related and industry-facing projects relied on these methods as benchmarks for deployment-oriented AV/CAV research, and separate multi-stakeholder panels sought my expertise on AV deployment, safety validation, and practical implementation constraints.
-\end{enumerate}
+My work directly addressed this central challenge through a connected body of contributions: stochastic car-following theory, controlled field experiments on human drivers following an autonomous vehicle, public empirical data for mixed-traffic modeling, trajectory-optimization methods, proactive longitudinal control methods, and learning-based planning and control approaches under real deployment constraints.
 
-\subsection{My Recognition Is Sustained and Cross-Sector}
+The significance of this body of work is that it did not remain theoretical. Independent actors used it to build new models, design new experiments, validate simulation frameworks, benchmark autonomous-vehicle control methods, and evaluate safety and operational impacts. That field-level reliance is the clearest evidence that my contributions were not ordinary research outputs but original contributions of major significance.
 
-My record shows sustained recognition across academia, industry, and government:
+\subsection{The Quality of My Authorship Evidence Shows International Influence, Not Mere Publication}
 
-\begin{itemize}
-  \item Independent academic use of my models, data, and methods.
-  \item Government-facing use in simulation, training, and policy analysis.
-  \item Industry-facing use through benchmarks, patents, and engineering projects.
-  \item Multi-stakeholder panel participation showing that government, academic, and industry audiences sought my AV deployment expertise.
-  \item Advisory and reviewing roles.
-  \item Lead Autonomy Engineer position.
-\end{itemize}
+My authorship evidence is not based only on the number of papers I have written. It is based on the quality, visibility, and influence of those papers.
 
-\subsection{National Benefit and Continued Work}
+I have authored 12 peer-reviewed articles in leading transportation-engineering and intelligent-transportation venues, including \textit{Transportation Science}, \textit{IEEE Transactions on Intelligent Transportation Systems}, \textit{Transportation Research Part C}, and \textit{Control Engineering Practice}. These are selective venues that publish significant methodological and applied advances in transportation systems, autonomous driving, traffic-flow theory, and control.
 
-I will continue working as a Lead Autonomy Engineer and transportation engineering researcher, contributing to AV safety, AV reliability, traffic efficiency, mixed-traffic modeling, deployment readiness, and U.S. technological leadership in autonomous vehicles.
+The impact of these publications is confirmed by objective citation evidence. Multiple papers have citation or prominence metrics above the 95th percentile compared with comparable work, and my publications have been cited by researchers at institutions across 35 countries. These citations include researchers from top universities, government agencies, national laboratories, and leading companies. My work has also been cited in Ph.D. dissertations and review papers, which is especially important because dissertations and review papers often identify foundational work and define future research directions.
+
+This evidence shows more than academic productivity. It shows sustained international recognition of my work by independent researchers who found my contributions important enough to incorporate into their own research programs.
+
+\subsection{Independent Reliance on My Work Demonstrates Major Significance}
+
+The strongest evidence in this petition is that independent researchers and practitioners did not merely mention my work; they used it.
+
+Federal and public-sector researchers relied on my work in transportation-safety and autonomous-driving evaluation. My trajectory-optimization framework was used in the FHWA CARMA Proof-of-Concept report as part of the technical basis for cooperative-automation research. An FHWA-sponsored analysis, modeling, and simulation report used my field-experiment evidence to improve mixed-traffic simulation. Virginia Transportation Research Council researchers used my human-following-AV findings for operational safety evaluation. European Commission / Joint Research Centre researchers used my empirical findings on driver heterogeneity in stochastic traffic-simulation analysis.
+
+Industry practitioners also relied on and extended my work. Leidos used my field data and trajectory-optimization benchmarks in engineering work for federally funded projects. Pony.ai built on my mixed-traffic lane-change assistance framework and reported a 0% collision rate and a 97% lane-change success rate. Royal HaskoningDHV extended my field-experiment protocol from straight-road car-following to T-intersection interaction experiments, demonstrating that my experimental design became a usable protocol for later real-world mixed-traffic studies.
+
+Academic researchers likewise used my work as a foundation for further scientific development. Researchers extended my stochastic stability framework, my proactive control framework, my field-experiment protocol, my roundabout-control methods, and my learning-based planning approaches. These uses show that my work became a starting point for new lines of investigation, not merely one citation among many.
+
+This pattern of independent reliance is central to the final merits analysis. It shows that my work had significance beyond my own publications and was recognized as useful by the broader field.
+
+\subsection{My Judging and Advisory Roles Show That the Field Trusts My Expertise}
+
+USCIS has already accepted that I satisfy the judging criterion. In the final merits analysis, the significance lies in the quality and context of that judging activity.
+
+I have reviewed manuscripts 31 times for leading international journals in transportation engineering and intelligent transportation systems. These reviews show that editors of respected journals trusted me to evaluate the work of other researchers in my field.
+
+Beyond journal review, I have been selected for advisory and evaluation roles connected to major U.S. research and deployment priorities. I have served on advisory boards and review panels involving USDOT, DOE, NSF, FHWA, and other federally related autonomous-driving and transportation initiatives. These roles are especially probative because they show that my expertise is sought not only to review academic manuscripts, but also to evaluate research directions, funding proposals, deployment strategies, and technical priorities in autonomous driving.
+
+This evidence reinforces the original-contributions evidence. The same field that has used my work has also asked me to judge and guide the work of others. That is a strong indicator of recognized authority.
+
+\subsection{My Acclaim Is Sustained Across Time, Topics, and Sectors}
+
+My recognition is sustained, not isolated. It spans multiple years, multiple research themes, and multiple types of independent evidence.
+
+The temporal record begins with my 2020 publications on stochastic car-following stability and human-driver behavior following autonomous vehicles. Those works continued to be used in later years by researchers and practitioners, including public-sector researchers, international researchers, and industry teams. My 2021--2023 work on trajectory optimization, proactive longitudinal control, and learning-based control was later used and extended by researchers at national laboratories, universities, and autonomous-vehicle companies. My 2024--2025 invitations to serve in advisory, proposal-review, seminar, and government-facing panel roles further show that recognition of my expertise has continued and expanded after the original publications.
+
+The thematic record is also broad. My work has influenced human-driver behavior modeling, stochastic traffic-flow theory, real-world mixed-traffic experiments, trajectory optimization, proactive autonomous-vehicle control, lane-change assistance, roundabout and intersection operations, and learning-based planning. This breadth is important because it shows that my acclaim is not tied to a single paper or isolated result. It arises from a connected research program that has influenced several parts of the autonomous-driving and transportation-engineering field.
+
+The sectoral record is equally important. Academic researchers used my models, data, and methods. Federal and state transportation researchers used my work in safety and simulation contexts. International public-sector researchers used my findings in traffic-simulation analysis. Industry practitioners used my benchmarks and frameworks in autonomous-driving development. This convergence of academic, government, and industry recognition is rare and highly probative of top-of-field standing.
+
+\subsection{The Totality of the Evidence Places Me Among the Small Percentage at the Top of the Field}
+
+The evidence establishes that I am among the small percentage who have risen to the top of transportation engineering, particularly in the area of autonomous-driving systems and mixed human-autonomous traffic.
+
+First, objective metrics place my work in the top tier of comparable research. Multiple papers have citation or prominence metrics above the 95th percentile, and my work has received sustained international citations across 35 countries.
+
+Second, independent experts place my work in the top percentage of the field. Dr. Yang Zhou described my \textit{Transportation Science} work as a fundamental theory breakthrough and stated that it placed me in the top percentage in the field. Dr. Pawel Gora likewise stated that my track record in reinforcement learning and trajectory optimization stands out among peers and places me in the top percentage of researchers in the field. These opinions are credible because they are tied to specific technical contributions and independent uses of my work.
+
+Third, independent researchers and practitioners have used my work as a foundation, protocol, benchmark, and technical basis. This is stronger than ordinary citation evidence. It shows that my contributions shaped later research and practice.
+
+Fourth, I have been repeatedly selected for roles that require recognized expertise: journal reviewer, federal and federally related research advisor, grant-proposal reviewer, book editor, seminar speaker, and government-facing autonomous-vehicle panelist. These invitations show that the field values my judgment and expertise in deciding what research should be published, funded, developed, and deployed.
+
+Finally, I combine fundamental research impact with practical autonomous-vehicle deployment experience. As a Lead Autonomy Engineer at May Mobility, I continue to apply transportation-engineering and autonomous-driving expertise to real-world deployment in the United States. This combination of theoretical contribution, empirical field evidence, algorithmic development, and deployment experience is rare and explains why researchers, agencies, and companies have repeatedly sought my expertise.
+
+\subsection{I Will Continue Working in the United States in My Area of Extraordinary Ability}
+
+I will continue to work in the United States in the same area of extraordinary ability: transportation engineering, autonomous-driving systems, mixed-traffic modeling, and autonomous-vehicle planning and control.
+
+My continued work will substantially benefit the United States. Safe and efficient autonomous-vehicle deployment is a major transportation priority. My research helps address core technical barriers to that goal: understanding how human drivers behave around autonomous vehicles, modeling mixed traffic accurately, designing safer and more efficient autonomous-vehicle control methods, and translating research into practical deployment tools. My patents, advisory roles, journal-review service, and current work as a Lead Autonomy Engineer further demonstrate that my expertise will continue to benefit U.S. transportation safety, efficiency, innovation, and autonomous-vehicle deployment.
 
 \subsection{Conclusion}
 
-Considering the accepted authorship and judging criteria together with the objective evidence of my original technical contributions, their independent adoption and use, their practical translation into government-facing and industry-facing contexts, and my sustained recognition across academia, industry, and government, the record establishes that I satisfy the original-contributions criterion and meet the final merits standard for EB-1A classification.
+The totality of the evidence demonstrates sustained national and international acclaim and establishes that I am among the small percentage at the very top of my field.
+
+USCIS has accepted my authorship and judging evidence, and this response establishes my original scientific contributions of major significance. But the record is stronger than the sum of three regulatory criteria. It shows a coherent career of acclaimed work: I created original transportation-engineering methods and empirical evidence; independent researchers, agencies, and companies used those contributions; my work influenced academic research, public-sector evaluation, and commercial autonomous-driving development; and the field has repeatedly entrusted me to review, advise, and shape future research and deployment.
+
+Accordingly, I respectfully submit that the final merits determination is satisfied and respectfully request approval of my EB-1A petition.
 
 \section{Exhibit Cross-Reference List}
 
