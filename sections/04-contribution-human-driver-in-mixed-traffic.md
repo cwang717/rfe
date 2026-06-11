@@ -48,7 +48,7 @@ This subsection provides objective evidence that later independent users did not
 
 | Category | Evidence and Significance |
 | --- | --- |
-| Experiment adoption | **Royal HaskoningDHV / TU Delft — Soni et al. (2022), Exhibit 10C-2, #7.** Extended my controlled human-following-AV experiment direction to new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. |
+| Industry adoption | **Royal HaskoningDHV (international engineering consulting firm) — Soni et al. (2022), Exhibit 10C-2, #7.** Extended my controlled human-following-AV experiment direction to new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. This shows industry, not only academic, adoption of the experimental protocol. |
 | Public-sector use | **FHWA project report — Huang et al. (2021), including Qianwen Li from CUTR, Florida, Exhibit 10C-2, #1.** Used my mixed-traffic field-experiment evidence in government-related AMS / simulation work for mixed traffic and automated-driving systems. |
 | Public-sector use | **European Commission / Joint Research Centre — Makridis et al. (2022), Exhibit 10C-2, #5.** Used my empirical findings on human-driver heterogeneity to support international public-sector analysis of stochastic traffic simulation. |
 | Theory extension | **Mohammadian (2021), Queensland University of Technology, Exhibit 10C-2, #8.** Used my human-following-AV findings to motivate a behavioral continuum framework for mixed-traffic dynamics and safety. |
@@ -58,11 +58,11 @@ This subsection provides objective evidence that later independent users did not
 | Patent translation | **U.S. Patent No. [Patent 1] — Intention Prediction in Symmetric Scenarios, Exhibit R4-1.** Shows that my autonomous-driving prediction work became a protected technical invention, not merely an academic article. |
 | Patent translation | **U.S. Patent No. [Patent 3] — Reinforcement Learning Techniques for Network-Based Transfer Learning, Exhibit R4-3.** Shows technical implementation of my model-transfer work for autonomous-driving prediction systems. |
 
-### 4.D.1. Independent researchers extended my field-experiment contribution into new human-driver/AV interaction studies.
+### 4.D.1. Industry practitioners adopted and extended my field-experiment protocol.
 
 My field-experiment contribution addressed a specific gap in mixed-traffic research: before my work, researchers lacked controlled real-world evidence showing how human drivers behave when following an autonomous vehicle rather than another human-driven vehicle. My work provided both the experimental design and the empirical finding that human-driver response depends not only on the AV’s actual driving behavior, but also on whether the AV is recognizable to the human driver.
 
-Royal HaskoningDHV and TU Delft researchers later used this same research direction as the basis for their own controlled field test in the Netherlands. Their study did not merely cite my paper in passing. It extended the issue I investigated—human-driver behavioral adaptation when interacting with AVs—into additional interaction types, including gap acceptance, car-following, and overtaking. Their field test with 18 participants and a Wizard-of-Oz AV expanded the experimental scope from my original HV-following-AV setting to broader behavioral-adaptation scenarios.
+Royal HaskoningDHV, an international engineering consulting firm headquartered in the Netherlands with offices in 30 countries and more than 6,000 professionals worldwide, later used this same research direction as the basis for a controlled field test in the Netherlands. Their study did not merely cite my paper in passing. It extended the issue I investigated—human-driver behavioral adaptation when interacting with AVs—into additional interaction types, including gap acceptance, car-following, and overtaking. Their field test with 18 participants and a Wizard-of-Oz AV expanded the experimental scope from my original HV-following-AV setting to broader behavioral-adaptation scenarios.
 
 This shows major significance because my contribution became part of the experimental foundation for later real-world AV-human interaction studies. Later researchers treated the question I opened—whether and how human drivers change behavior around AVs—as a research direction worth independently extending.
 
