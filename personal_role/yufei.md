@@ -1,0 +1,12 @@
+06/01/2026
+U.S. Citizenship and Immigration Services
+Re: Verification of Dr. Yu Wang’s Contributions to “Leveraging Transformer Model to Predict Vehicle Trajectories in Congested Urban Traffic”
+Dear Officer:
+I am pleased to verify Dr. Yu Wang’s substantive contributions to our co-authored article, “Leveraging Transformer Model to Predict Vehicle Trajectories in Congested Urban Traffic,” published in Transportation Research Record in 2023. I was the first author of this paper and led the day-to-day implementation, experimentation, and manuscript development. At the same time, Dr. Wang played an important mentoring and technical role throughout the project.
+Dr. Wang helped shape the research direction by identifying the importance of studying vehicle trajectory prediction specifically in congested urban traffic, where vehicle interactions are more heterogeneous and complex than in freeway settings. She provided guidance on framing the technical gap: existing LSTM-based models had been widely used for trajectory prediction, but their performance and modeling assumptions were less well established for dense urban traffic with frequent stop-and-go behavior and complex surrounding-vehicle interactions. This guidance helped motivate our use of a transformer-based model to better capture spatiotemporal dependencies among interacting vehicles.
+Dr. Wang also advised on the data-processing strategy for adapting the pNEUMA drone trajectory dataset to the trajectory prediction problem studied in the paper. In particular, she provided technical input on structuring the raw trajectory data into a nine-vehicle prediction scenario consisting of a target vehicle and eight surrounding vehicles. Her feedback helped refine the surrounding-vehicle identification logic, including the directional slot structure, angle-based assignment of neighboring vehicles, nearest-neighbor filtering to manage computational complexity, and zero-padding when no surrounding vehicle was present in a particular slot. These data-processing decisions were important because the raw dataset did not directly provide the structured interaction features needed for model training.
+Dr. Wang further provided substantive comments on the manuscript, helping improve the presentation of the problem formulation, methodology, experimental design, and interpretation of results. 
+Sincerely,
+Yufei Xu,
+First Author of “Leveraging Transformer Model to Predict Vehicle Trajectories in Congested Urban Traffic”
+Georgia Institute of Technology
