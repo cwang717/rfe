@@ -253,7 +253,9 @@ The publications, datasets, models, and patents discussed below are therefore no
 
 \subsection{My Personal Role}
 
-{\small
+\begin{singlespace}
+\small
+\renewcommand{\arraystretch}{1.08}
 \begin{tabularx}{\textwidth}{@{}p{0.25\textwidth}p{0.38\textwidth}Y@{}}
 \toprule
 \textbf{Sub-Contribution} & \textbf{My Specific Role} & \textbf{Exhibit} \\
@@ -264,7 +266,7 @@ Interaction-aware vehicle trajectory prediction & Developed the interaction-awar
 Domain-adaptive prediction and transfer learning for limited-data driving environments & Developed the domain-adaptive prediction methods for transferring models across different driving environments when new-environment data are limited, designed the transfer-parameter selection methods, and implemented the learning framework. & \ExhibitRef{9B}; \ExhibitRef{12}; \ExhibitRef{R4-3} \\
 \bottomrule
 \end{tabularx}
-}
+\end{singlespace}
 
 \subsection{Objective Evidence of Adoption, Use, Extension, or Reliance}
 
@@ -275,10 +277,17 @@ This subsection provides objective evidence that later independent users did not
 \begin{singlespace}
 \small
 \renewcommand{\arraystretch}{1.12}
-\begin{tabularx}{\textwidth}{@{}p{0.24\textwidth}Y@{}}
+\begin{longtable}{@{}p{0.23\textwidth}p{\dimexpr0.74\textwidth-2\tabcolsep\relax}@{}}
 \toprule
 \textbf{Category} & \textbf{Evidence and Significance} \\
 \midrule
+\endfirsthead
+\toprule
+\textbf{Category} & \textbf{Evidence and Significance} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
 \textbf{Experiment extension} & \textbf{Royal HaskoningDHV / Delft University of Technology (TU Delft) --- Soni et al. (2022), \ExhibitSubRef{10C-2}{7}.} Extended my controlled human-following-AV experiment direction to new behavioral-adaptation studies involving gap acceptance, car-following, and overtaking. \\
 \addlinespace[0.2em]
 \textbf{Public-sector use} & \textbf{VTRC --- Li et al. (2021), \ExhibitSubRef{10C-2}{4}.} Used the HV-following-AV behavioral distinction I helped establish as a basis for evaluating operational safety in mixed traffic, analyzing human-following-human, AV-following-human, and human-following-AV conditions separately using AV operational data. \\
@@ -298,8 +307,7 @@ This subsection provides objective evidence that later independent users did not
 \textbf{Patent translation} & \textbf{U.S. Patent No. [Patent 1] --- Intention Prediction in Symmetric Scenarios, \ExhibitRef{R4-1}.} Shows that my autonomous-driving prediction work became a protected technical invention, not merely an academic article. \\
 \addlinespace[0.2em]
 \textbf{Patent translation} & \textbf{U.S. Patent No. [Patent 3] --- Reinforcement Learning Techniques for Network-Based Transfer Learning, \ExhibitRef{R4-3}.} Shows technical implementation of my model-transfer work for autonomous-driving prediction systems. \\
-\bottomrule
-\end{tabularx}
+\end{longtable}
 \end{singlespace}
 
 \subsubsection{Independent researchers extended my field-experiment contribution into new human-driver/AV interaction studies.}
@@ -438,7 +446,9 @@ Taken together, these works created a focused contribution: \textbf{Practical Pl
 
 \subsection{My Personal Role}
 
-{\small
+\begin{singlespace}
+\small
+\renewcommand{\arraystretch}{1.08}
 \begin{tabularx}{\textwidth}{@{}p{0.27\textwidth}p{0.36\textwidth}Y@{}}
 \toprule
 \textbf{Sub-Contribution} & \textbf{My Specific Role} & \textbf{Exhibit} \\
@@ -448,7 +458,7 @@ Structure-specific interaction methods: signalized intersections and roundabouts
 Proactive longitudinal control to manage or prevent disruptive human-driver lane changes & Developed the proactive longitudinal control logic, designed the mixed-traffic simulation experiments, implemented the control algorithms, and conducted the safety and efficiency evaluation across lane-change disruption scenarios. & \ExhibitRef{9B}; \ExhibitRef{12}; \ExhibitRef{R3-1} \\
 \bottomrule
 \end{tabularx}
-}
+\end{singlespace}
 
 \subsection{Objective Evidence of Adoption, Use, Extension, or Reliance}
 
@@ -457,10 +467,17 @@ Proactive longitudinal control to manage or prevent disruptive human-driver lane
 \begin{singlespace}
 \small
 \renewcommand{\arraystretch}{1.12}
-\begin{tabularx}{\textwidth}{@{}p{0.24\textwidth}Y@{}}
+\begin{longtable}{@{}p{0.23\textwidth}p{\dimexpr0.74\textwidth-2\tabcolsep\relax}@{}}
 \toprule
 \textbf{Category} & \textbf{Evidence and Significance} \\
 \midrule
+\endfirsthead
+\toprule
+\textbf{Category} & \textbf{Evidence and Significance} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
 \textbf{Framework extension} & \textbf{Li et al. (2022), \ExhibitRef{R1-3}.} Built upon my first-authored trajectory-optimization review to develop a lane-changing method that considers not only the AV's own motion but also its effect on surrounding vehicles and overall traffic flow---directly extending the mixed-traffic-aware planning perspective I established. \\
 \addlinespace[0.2em]
 \textbf{Public-sector / federal use} & \textbf{FHWA CARMA Proof-of-Concept Report --- Soleimaniamiri et al. (2021), FHWA-HRT-21-068, \ExhibitSubRef{10C-2}{2}.} Relied on the trajectory-optimization framework I helped create---optimized CAV trajectories balancing fuel/energy performance, driving comfort, traffic delay, and safety/vehicle-dynamics constraints---as the technical basis for a federal cooperative-automation use case on Dynamic Lane Assignment at signalized corridors, connecting vehicle-level trajectory planning with infrastructure-level traffic management. \\
@@ -471,8 +488,7 @@ Proactive longitudinal control to manage or prevent disruptive human-driver lane
 \addlinespace[0.2em]
 \textbf{Patent translation} & \textbf{U.S. Patent No. 11,697,435 B1 --- Hierarchical Vehicle Action Prediction, \ExhibitRef{R4-2}.} Translates my interaction-aware AV planning and prediction research into a protected, implementable technical invention for hierarchical vehicle-action prediction in interaction-heavy scenarios such as merging and surrounding-vehicle behavior anticipation. \\
 
-\bottomrule
-\end{tabularx}
+\end{longtable}
 \end{singlespace}
 
 \subsubsection{Later researchers used my trajectory-optimization framework to move AV planning beyond ego-only motion optimization.}
