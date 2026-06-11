@@ -22,7 +22,7 @@ In short, before my work, the field lacked a connected foundation for understand
 
 My contribution is a framework for understanding, measuring, and predicting how human drivers behave around autonomous vehicles in mixed traffic.
 
-This contribution is not merely “traffic simulation” or “traffic prediction” in general. The specific contribution is narrower: **I helped the field model and predict human-driver behavior in the presence of autonomous vehicles, especially when that behavior is uncertain, affected by trust in AVs, and difficult to generalize from limited data.**
+This contribution is not merely “traffic simulation” or “traffic prediction” in general. Rather, my specific contribution is: **I helped the field model and predict human-driver behavior in the presence of autonomous vehicles, especially when that behavior is uncertain, affected by trust in AVs, and difficult to generalize from limited data.**
 
 I advanced this contribution in four connected ways.
 

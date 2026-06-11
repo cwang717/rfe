@@ -28,7 +28,7 @@ For clarity, the key terms are as follows:
 
 ## 5.B. What I Created and Why It Was Original
 
-My contribution is not the broad field of autonomous vehicle planning and control. My contribution is narrower and more specific: **optimization- and learning-based trajectory planning/control for mixed traffic under human-driver interaction, roadway-structure constraints, and proactive disruption management.**
+My contribution is not the broad field of autonomous vehicle planning and control. My contribution is focused and specific: **optimization- and learning-based trajectory planning/control for mixed traffic under human-driver interaction, roadway-structure constraints, and proactive disruption management.**
 
 I created and helped develop a connected body of work that moved AV/CAV trajectory planning and control from idealized vehicle motion toward deployable mixed-traffic interaction methods. This contribution had three parts.
 
